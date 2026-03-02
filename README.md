@@ -9,7 +9,7 @@
 
 ## 📌 Progress Roadmap  
 
-- [x] Week 1: SQL Basics + Python Fundamentals (In Progress)
+- [x] Week 1: SQL Fundamentals + Core Python Basics (In Progress)
 - [ ] Week 2: SQL Intermediate + Pandas  
 - [ ] Week 3: Subqueries + Advanced Pandas  
 - [ ] Week 4: Window Functions + Power BI  
@@ -23,27 +23,32 @@
 - Day 2: Python Audit + LinkedIn Setup  
 - Day 3: GitHub Structure + SQL SELECT & WHERE  
 - Day 4: Python Functions + SQL GROUP BY & HAVING  
-- Day 5: SQL JOINs (INNER, LEFT, RIGHT, FULL via UNION, SELF JOIN) + JOIN Practice Set  
+- Day 5: SQL JOINs (INNER, LEFT, RIGHT, FULL via UNION, SELF JOIN) + 15 JOIN Practice Queries  
+- Day 5 (Python): 5 List Comprehension Exercises Implemented  
 
 ---
 
 ## 🛠 Skills Covered So Far  
 
-**SQL**
+### SQL
 - SELECT, WHERE  
 - GROUP BY, HAVING  
 - Aggregate Functions  
-- All Major JOIN Types  
+- INNER JOIN  
+- LEFT JOIN  
+- RIGHT JOIN  
+- FULL OUTER (UNION method)  
+- SELF JOIN  
 - JOIN + GROUP BY + HAVING combinations  
 
-**Python**
+### Python
 - Functions  
-- List Comprehension (Basics)
+- List Comprehension (Filtering, Transformation, Conditional Logic)
 
 ---
 
 ## 🎯 Objective  
 
-Building strong SQL query writing ability (especially JOIN logic) and Python fundamentals before moving to real-world datasets, dashboards, and portfolio projects.
+Building strong SQL JOIN logic and clean Python fundamentals before moving to real-world datasets, dashboard creation, and portfolio-level projects.
 
-Focus: Writing queries independently without copying solutions.
+Primary Focus: Writing queries independently without solution dependency.

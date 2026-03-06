@@ -3,7 +3,7 @@
 **Goal:** Entry-level Data Analyst role in India  
 **Timeline:** 60 Days  
 **Core Tools:** SQL, Python, Pandas, Power BI, Excel  
-**Current Status:** Week 1 — Foundation (Day 6 Completed)
+**Current Status:** Week 1 — Foundation (Day 7 Completed)
 
 ---
 
@@ -25,7 +25,8 @@
 - Day 4: Python Functions + SQL GROUP BY & HAVING  
 - Day 5: SQL JOINs (INNER, LEFT, RIGHT, FULL via UNION, SELF JOIN) + 15 JOIN Practice Queries  
 - Day 5 (Python): 5 List Comprehension Exercises Implemented  
-- Day 6: HackerRank SQL Problem Solving (Aggregations, Conditions, Sorting Logic)
+- Day 6: HackerRank SQL Problem Solving (Aggregations, Conditions, Sorting Logic)  
+- Day 7: SQL Practice — DISTINCT, ORDER BY, LIMIT, OFFSET, Subqueries (IN, MAX, AVG, NOT IN)
 
 ---
 
@@ -33,6 +34,9 @@
 
 ### SQL
 - SELECT, WHERE  
+- DISTINCT  
+- ORDER BY  
+- LIMIT, OFFSET  
 - GROUP BY, HAVING  
 - Aggregate Functions  
 - INNER JOIN  
@@ -40,7 +44,7 @@
 - RIGHT JOIN  
 - FULL OUTER (UNION method)  
 - SELF JOIN  
-- JOIN + GROUP BY + HAVING combinations  
+- Subqueries (IN, Scalar Subqueries, NOT IN)  
 - Query logic for HackerRank-style problems
 
 ### Python
@@ -51,6 +55,6 @@
 
 ## 🎯 Objective  
 
-Building strong SQL JOIN logic and clean Python fundamentals before moving to real-world datasets, dashboard creation, and portfolio-level projects.
+Building strong SQL logic and clean Python fundamentals before moving to real-world datasets, dashboard creation, and portfolio-level projects.
 
 Primary Focus: Writing queries independently without solution dependency.

@@ -9,7 +9,7 @@
 
 ## 📌 Progress Roadmap  
 
-- [x] Week 1: SQL Fundamentals + Core Python Basics (In Progress)
+- [x] Week 1: SQL Fundamentals + Core Python Basics (In Progress)  
 - [ ] Week 2: SQL Intermediate + Pandas  
 - [ ] Week 3: Subqueries + Advanced Pandas  
 - [ ] Week 4: Window Functions + Power BI  
@@ -27,7 +27,7 @@
 - Day 5 (Python): 5 List Comprehension Exercises Implemented  
 - Day 6: HackerRank SQL Problem Solving (Aggregations, Conditions, Sorting Logic)  
 - Day 7: SQL Practice — DISTINCT, ORDER BY, LIMIT, OFFSET, Subqueries (IN, MAX, AVG, NOT IN)  
-- Day 8: SQL Subqueries Practice — MAX Salary, Departments Without Employees, Top 3 Salary Queries  
+- Day 8: SQL String Functions Practice — UPPER, LOWER, LENGTH, CONCAT, SUBSTRING, TRIM, REPLACE, LEFT, RIGHT  
 
 ---
 
@@ -46,6 +46,7 @@
 - FULL OUTER (UNION method)  
 - SELF JOIN  
 - Subqueries (IN, NOT IN, Scalar Subqueries)  
+- String Functions (UPPER, LOWER, LENGTH, CONCAT, SUBSTRING, TRIM, REPLACE, LEFT, RIGHT)  
 - Query logic for HackerRank-style problems  
 
 ### Python

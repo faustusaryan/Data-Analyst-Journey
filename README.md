@@ -3,13 +3,13 @@
 **Goal:** Entry-level Data Analyst role in India  
 **Timeline:** 60 Days  
 **Core Tools:** SQL, Python, Pandas, Power BI, Excel  
-**Current Status:** Week 1 — Foundation (Day 8 Completed)
+**Current Status:** Week 1 — Foundation (Day 9 Completed)
 
 ---
 
 ## 📌 Progress Roadmap  
 
-- [x] Week 1: SQL Fundamentals + Core Python Basics (Day 1–8)
+- [x] Week 1: SQL Fundamentals + Core Python Basics (Day 1–9)
 - [ ] Week 2: SQL Intermediate + Pandas  
 - [ ] Week 3: Subqueries + Advanced Pandas  
 - [ ] Week 4: Window Functions + Power BI  
@@ -28,6 +28,7 @@
 - Day 6: HackerRank SQL Problem Solving (Aggregations, Conditions, Sorting Logic)  
 - Day 7: SQL Practice — DISTINCT, ORDER BY, LIMIT, OFFSET, Subqueries (IN, MAX, AVG, NOT IN)  
 - Day 8: SQL String Functions Practice — UPPER, LOWER, LENGTH, CONCAT, SUBSTRING, TRIM, REPLACE, LEFT, RIGHT + Bonus String Queries  
+- Day 9: SQL Date Functions Practice — NOW, CURDATE, DATEDIFF, DATE_FORMAT, DATE_ADD, DATE_SUB (15 Queries)
 
 ---
 
@@ -47,6 +48,7 @@
 - SELF JOIN  
 - Subqueries (IN, NOT IN, Scalar Subqueries)  
 - String Functions (UPPER, LOWER, LENGTH, CONCAT, SUBSTRING, TRIM, REPLACE, LEFT, RIGHT)  
+- Date Functions (NOW, CURDATE, DATEDIFF, DATE_FORMAT, DATE_ADD, DATE_SUB)  
 - HackerRank-style SQL Problem Solving  
 - Query Writing & Logical Filtering  
 

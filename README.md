@@ -28,7 +28,7 @@
 - Day 6: HackerRank SQL Problem Solving (Aggregations, Conditions, Sorting Logic)  
 - Day 7: SQL Practice — DISTINCT, ORDER BY, LIMIT, OFFSET, Subqueries (IN, MAX, AVG, NOT IN)  
 - Day 8: SQL String Functions Practice — UPPER, LOWER, LENGTH, CONCAT, SUBSTRING, TRIM, REPLACE, LEFT, RIGHT + Bonus String Queries  
-- Day 9: SQL Date Functions Practice — NOW, CURDATE, DATEDIFF, DATE_FORMAT, DATE_ADD, DATE_SUB (15 Queries)
+- Day 9: SQL JOIN Queries with Aggregation and Subqueries (Employee–Department Dataset)
 
 ---
 
@@ -48,7 +48,7 @@
 - SELF JOIN  
 - Subqueries (IN, NOT IN, Scalar Subqueries)  
 - String Functions (UPPER, LOWER, LENGTH, CONCAT, SUBSTRING, TRIM, REPLACE, LEFT, RIGHT)  
-- Date Functions (NOW, CURDATE, DATEDIFF, DATE_FORMAT, DATE_ADD, DATE_SUB)  
+- JOIN Queries with Aggregation  
 - HackerRank-style SQL Problem Solving  
 - Query Writing & Logical Filtering  
 

@@ -2,7 +2,7 @@
 **Goal:** Entry-level Data Analyst role in India  
 **Timeline:** 60 Days  
 **Core Tools:** SQL, Python, Pandas, Power BI, Excel  
-**Current Status:** Week 1 — Foundation (Day 10 Completed)
+**Current Status:** Week 2 — Pandas + SQL Intermediate (Day 11 Completed)
 
 ---
 
@@ -27,6 +27,7 @@
 - Day 8: SQL String Functions Practice — UPPER, LOWER, LENGTH, CONCAT, SUBSTRING, TRIM, REPLACE, LEFT, RIGHT + Bonus String Queries  
 - Day 9: SQL JOIN Queries with Aggregation and Subqueries (Employee–Department Dataset)  
 - Day 10: Python Functions — 15 Exercises + 5 Bonus (greet, salary grading, filtering, *args, dict operations, list of dicts)
+- Day 11: Pandas Intro — 15 operations on Titanic CSV (head, shape, dtypes, isnull, describe, value_counts, filter, groupby, sort, drop)
 
 ---
 
@@ -61,6 +62,17 @@
   - Conditional Logic  
 - Dictionary operations (`.get()`, counting, filtering)  
 - List of dicts filtering  
+
+### Pandas
+- Loading CSV with `read_csv()`
+- DataFrame exploration (head, tail, shape, columns, dtypes)
+- Null value detection with `isnull().sum()`
+- Summary statistics with `describe()`
+- Column selection and filtering (single + multiple conditions)
+- `value_counts()` for distribution analysis
+- Sorting with `sort_values()`
+- Grouping with `groupby()` + aggregation (mean)
+- Dropping columns with `drop()`
 
 ---
 

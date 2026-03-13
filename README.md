@@ -1,14 +1,14 @@
 # My 60-Day Data Analyst Journey  
-**Goal:** Entry-level Data Analyst role in India  
-**Timeline:** 60 Days  
-**Core Tools:** SQL, Python, Pandas, Power BI, Excel  
-**Current Status:** Week 2 — Pandas + SQL Intermediate (Day 11 Completed)
+Goal: Entry-level Data Analyst role in India  
+Timeline: 60 Days  
+Core Tools: SQL, Python, Pandas, Power BI, Excel  
+Current Status: Week 2 — Pandas + SQL Intermediate (Day 12 Completed)
 
 ---
 
 ## 📌 Progress Roadmap  
 - [x] Week 1: SQL Fundamentals + Core Python Basics (Day 1–10)
-- [ ] Week 2: SQL Intermediate + Pandas  
+- [ ] Week 2: SQL Intermediate + Pandas + Excel  
 - [ ] Week 3: Subqueries + Advanced Pandas  
 - [ ] Week 4: Window Functions + Power BI  
 - [ ] Week 5–8: Portfolio Projects + Resume + Job Applications  
@@ -16,6 +16,7 @@
 ---
 
 ## 📅 Daily Log  
+
 - Day 1: Environment Setup + SQL Audit  
 - Day 2: Python Audit + LinkedIn Setup  
 - Day 3: GitHub Structure + SQL SELECT & WHERE  
@@ -26,8 +27,9 @@
 - Day 7: SQL Practice — DISTINCT, ORDER BY, LIMIT, OFFSET, Subqueries (IN, MAX, AVG, NOT IN)  
 - Day 8: SQL String Functions Practice — UPPER, LOWER, LENGTH, CONCAT, SUBSTRING, TRIM, REPLACE, LEFT, RIGHT + Bonus String Queries  
 - Day 9: SQL JOIN Queries with Aggregation and Subqueries (Employee–Department Dataset)  
-- Day 10: Python Functions — 15 Exercises + 5 Bonus (greet, salary grading, filtering, *args, dict operations, list of dicts)
-- Day 11: Pandas Intro — 15 operations on Titanic CSV (head, shape, dtypes, isnull, describe, value_counts, filter, groupby, sort, drop)
+- Day 10: Python Functions — 15 Exercises + 5 Bonus (greet, salary grading, filtering, *args, dict operations, list of dicts)  
+- Day 11: Pandas Intro — 15 operations on Titanic CSV (head, shape, dtypes, isnull, describe, value_counts, filter, groupby, sort, drop)  
+- Day 12: Excel Basics — formulas, VLOOKUP, Pivot Tables
 
 ---
 
@@ -74,8 +76,16 @@
 - Grouping with `groupby()` + aggregation (mean)
 - Dropping columns with `drop()`
 
+### Excel
+- Basic formulas  
+- VLOOKUP  
+- Pivot Tables  
+- Data summarization and quick analysis
+
 ---
 
 ## 🎯 Objective  
+
 Building strong SQL logic and clean Python fundamentals before moving to real-world datasets, dashboard creation, and portfolio-level projects.  
-**Primary Focus:** Writing SQL queries independently without relying on solutions.
+
+Primary Focus: Writing SQL queries independently without relying on solutions.

@@ -2,7 +2,7 @@
 Goal: Entry-level Data Analyst role in India  
 Timeline: 60 Days  
 Core Tools: SQL, Python, Pandas, Power BI, Excel  
-Current Status: Week 2 — Pandas + SQL Intermediate (Day 14 Completed)
+Current Status: Week 2 — Pandas + SQL Intermediate (Day 15 Completed)
 
 ---
 
@@ -30,7 +30,8 @@ Current Status: Week 2 — Pandas + SQL Intermediate (Day 14 Completed)
 - Day 11: Pandas Intro — 15 operations on Titanic CSV (head, shape, dtypes, isnull, describe, value_counts, filter, groupby, sort, drop)  
 - Day 12: Excel Basics — formulas, VLOOKUP, Pivot Tables  
 - Day 13: SQL BETWEEN Operator — 3 Warmup Queries + 15 BETWEEN Practice Queries + 5 Grades Table Queries (JOIN with BETWEEN)  
-- Day 14: SQL JOIN with BETWEEN — Students & Grades dataset (12 JOIN queries + aggregation + sorting + filtering practice)
+- Day 14: SQL JOIN with BETWEEN — Students & Grades dataset (12 JOIN queries + aggregation + sorting + filtering practice)  
+- Day 15: SQL CASE WHEN Practice — 15 conditional queries + JOIN combinations with Students & Grades dataset
 
 ---
 
@@ -43,6 +44,7 @@ Current Status: Week 2 — Pandas + SQL Intermediate (Day 14 Completed)
 - LIMIT, OFFSET  
 - GROUP BY, HAVING  
 - Aggregate Functions  
+- CASE WHEN (conditional logic in queries)  
 - INNER JOIN  
 - LEFT JOIN  
 - RIGHT JOIN  

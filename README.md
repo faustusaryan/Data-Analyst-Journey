@@ -2,19 +2,15 @@
 Goal: Entry-level Data Analyst role in India  
 Timeline: 60 Days  
 Core Tools: SQL, Python, Pandas, Power BI, Excel  
-Current Status: Week 2 — Pandas + SQL Intermediate (Day 15 Completed)
-
+Current Status: Week 2 — Pandas + SQL Intermediate (Day 16 Completed)
 ---
-
 ## 📌 Progress Roadmap  
 - [x] Week 1: SQL Fundamentals + Core Python Basics (Day 1–10)
 - [x] Week 2: SQL Intermediate + Pandas + Excel  
 - [ ] Week 3: Subqueries + Advanced Pandas  
 - [ ] Week 4: Window Functions + Power BI  
 - [ ] Week 5–8: Portfolio Projects + Resume + Job Applications  
-
 ---
-
 ## 📅 Daily Log  
 - Day 1: Environment Setup + SQL Audit  
 - Day 2: Python Audit + LinkedIn Setup  
@@ -31,12 +27,10 @@ Current Status: Week 2 — Pandas + SQL Intermediate (Day 15 Completed)
 - Day 12: Excel Basics — formulas, VLOOKUP, Pivot Tables  
 - Day 13: SQL BETWEEN Operator — 3 Warmup Queries + 15 BETWEEN Practice Queries + 5 Grades Table Queries (JOIN with BETWEEN)  
 - Day 14: SQL JOIN with BETWEEN — Students & Grades dataset (12 JOIN queries + aggregation + sorting + filtering practice)  
-- Day 15: SQL CASE WHEN Practice — 15 conditional queries + JOIN combinations with Students & Grades dataset
-
+- Day 15: SQL CASE WHEN Practice — 15 conditional queries + JOIN combinations with Students & Grades dataset  
+- Day 16: SQL CASE WHEN in ORDER BY — multi-condition sorting (3 warmup + 10 queries) + Python Functions & Dicts — 3 function exercises + 16 dict tasks (CRUD, nested dicts, comprehension, list of dicts, filter, sort, grouping)
 ---
-
 ## 🛠 Skills Covered So Far  
-
 ### SQL
 - SELECT, WHERE  
 - DISTINCT  
@@ -45,6 +39,7 @@ Current Status: Week 2 — Pandas + SQL Intermediate (Day 15 Completed)
 - GROUP BY, HAVING  
 - Aggregate Functions  
 - CASE WHEN (conditional logic in queries)  
+- CASE WHEN in ORDER BY (multi-group conditional sorting)  
 - INNER JOIN  
 - LEFT JOIN  
 - RIGHT JOIN  
@@ -57,7 +52,6 @@ Current Status: Week 2 — Pandas + SQL Intermediate (Day 15 Completed)
 - JOIN with BETWEEN (range-based joins using grade tables)  
 - HackerRank-style SQL Problem Solving  
 - Query Writing & Logical Filtering  
-
 ### Python
 - Functions (def, return, parameters, default args)  
 - *args (variable arguments)  
@@ -68,8 +62,13 @@ Current Status: Week 2 — Pandas + SQL Intermediate (Day 15 Completed)
   - Transformation  
   - Conditional Logic  
 - Dictionary operations (`.get()`, counting, filtering)  
-- List of dicts filtering  
-
+- Dictionary CRUD (add, update, delete keys)  
+- `.keys()`, `.values()`, `.items()`  
+- Nested dictionaries (create + access)  
+- Dict comprehension  
+- Key existence check with `in` operator  
+- List of dicts (create, loop, filter, sort, max, grouping)  
+- Lambda with `sorted()` and `max()`  
 ### Pandas
 - Loading CSV with `read_csv()`
 - DataFrame exploration (head, tail, shape, columns, dtypes)
@@ -80,16 +79,12 @@ Current Status: Week 2 — Pandas + SQL Intermediate (Day 15 Completed)
 - Sorting with `sort_values()`
 - Grouping with `groupby()` + aggregation (mean)
 - Dropping columns with `drop()`
-
 ### Excel
 - Basic formulas  
 - VLOOKUP  
 - Pivot Tables  
 - Data summarization and quick analysis
-
 ---
-
 ## 🎯 Objective  
 Building strong SQL logic and clean Python fundamentals before moving to real-world datasets, dashboard creation, and portfolio-level projects.  
-
 Primary Focus: Writing SQL queries independently without relying on solutions.

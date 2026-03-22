@@ -2,7 +2,7 @@
 Goal: Entry-level Data Analyst role in India  
 Timeline: 60 Days  
 Core Tools: SQL, Python, Pandas, Power BI, Excel  
-Current Status: Week 2 — Pandas + SQL Intermediate (Day 16 Completed)
+Current Status: Week 3 — Pandas + SQL Intermediate (Day 17 Completed)
 ---
 ## 📌 Progress Roadmap  
 - [x] Week 1: SQL Fundamentals + Core Python Basics (Day 1–10)
@@ -29,6 +29,7 @@ Current Status: Week 2 — Pandas + SQL Intermediate (Day 16 Completed)
 - Day 14: SQL JOIN with BETWEEN — Students & Grades dataset (12 JOIN queries + aggregation + sorting + filtering practice)  
 - Day 15: SQL CASE WHEN Practice — 15 conditional queries + JOIN combinations with Students & Grades dataset  
 - Day 16: SQL CASE WHEN in ORDER BY — multi-condition sorting (3 warmup + 10 queries) + Python Functions & Dicts — 3 function exercises + 16 dict tasks (CRUD, nested dicts, comprehension, list of dicts, filter, sort, grouping)
+- Day 17: Python — List of Dicts Deep Practice (C1–C12) — dict building with zip, cube comprehension, score filtering, employee loop, IT filter, count, sum, salary sort (lambda), max/min, dept grouping, avg salary per dept
 ---
 ## 🛠 Skills Covered So Far  
 ### SQL
@@ -67,8 +68,10 @@ Current Status: Week 2 — Pandas + SQL Intermediate (Day 16 Completed)
 - Nested dictionaries (create + access)  
 - Dict comprehension  
 - Key existence check with `in` operator  
-- List of dicts (create, loop, filter, sort, max, grouping)  
-- Lambda with `sorted()` and `max()`  
+- List of dicts (create, loop, filter, sort, max, grouping, avg aggregation)  
+- Lambda with `sorted()`, `max()`, `min()`
+- Dept-wise grouping with nested dict accumulation
+- Average aggregation per group using `sum()` / `len()`
 ### Pandas
 - Loading CSV with `read_csv()`
 - DataFrame exploration (head, tail, shape, columns, dtypes)

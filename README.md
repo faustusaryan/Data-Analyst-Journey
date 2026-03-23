@@ -3,14 +3,18 @@ Goal: Entry-level Data Analyst role in India
 Timeline: 60 Days  
 Core Tools: SQL, Python, Pandas, Power BI, Excel  
 Current Status: Week 3 — Pandas + SQL Intermediate (Day 18 Completed)
+
 ---
+
 ## 📌 Progress Roadmap  
 - [x] Week 1: SQL Fundamentals + Core Python Basics (Day 1–10)
 - [x] Week 2: SQL Intermediate + Pandas + Excel  
 - [ ] Week 3: Subqueries + Advanced Pandas  
 - [ ] Week 4: Window Functions + Power BI  
 - [ ] Week 5–8: Portfolio Projects + Resume + Job Applications  
+
 ---
+
 ## 📅 Daily Log  
 - Day 1: Environment Setup + SQL Audit  
 - Day 2: Python Audit + LinkedIn Setup  
@@ -28,11 +32,15 @@ Current Status: Week 3 — Pandas + SQL Intermediate (Day 18 Completed)
 - Day 13: SQL BETWEEN Operator — 3 Warmup Queries + 15 BETWEEN Practice Queries + 5 Grades Table Queries (JOIN with BETWEEN)  
 - Day 14: SQL JOIN with BETWEEN — Students & Grades dataset (12 JOIN queries + aggregation + sorting + filtering practice)  
 - Day 15: SQL CASE WHEN Practice — 15 conditional queries + JOIN combinations with Students & Grades dataset  
-- Day 16: SQL CASE WHEN in ORDER BY — multi-condition sorting (3 warmup + 10 queries) + Python Functions & Dicts — 3 function exercises + 16 dict tasks (CRUD, nested dicts, comprehension, list of dicts, filter, sort, grouping)
-- Day 17: Python — List of Dicts Deep Practice (C1–C12) — dict building with zip, cube comprehension, score filtering, employee loop, IT filter, count, sum, salary sort (lambda), max/min, dept grouping, avg salary per dept
-- Day 18: Python — Dictionary Aggregation on Employee Data (P01–P03) — count per dept, total salary per dept, avg salary per dept (rounded); manual if/else approach vs `.get()` shorthand
+- Day 16: SQL CASE WHEN in ORDER BY — multi-condition sorting (3 warmup + 10 queries) + Python Functions & Dicts — 3 function exercises + 16 dict tasks (CRUD, nested dicts, comprehension, list of dicts, filter, sort, grouping)  
+- Day 17: Python — List of Dicts Deep Practice (C1–C12) — dict building with zip, cube comprehension, score filtering, employee loop, IT filter, count, sum, salary sort (lambda), max/min, dept grouping, avg salary per dept  
+- Day 18: SQL — Database Setup + Tables (departments, employees, customers, products, orders) + Section 1 Queries (SELECT, WHERE, ORDER BY, LIMIT, NULL, LIKE, DISTINCT, OFFSET)  
+           Python — Dictionary Aggregation on Employee Data (P01–P03) — count per dept, total salary per dept, avg salary per dept (rounded); manual if/else approach vs `.get()` shorthand  
+
 ---
+
 ## 🛠 Skills Covered So Far  
+
 ### SQL
 - SELECT, WHERE  
 - DISTINCT  
@@ -54,6 +62,7 @@ Current Status: Week 3 — Pandas + SQL Intermediate (Day 18 Completed)
 - JOIN with BETWEEN (range-based joins using grade tables)  
 - HackerRank-style SQL Problem Solving  
 - Query Writing & Logical Filtering  
+
 ### Python
 - Functions (def, return, parameters, default args)  
 - *args (variable arguments)  
@@ -70,27 +79,32 @@ Current Status: Week 3 — Pandas + SQL Intermediate (Day 18 Completed)
 - Dict comprehension  
 - Key existence check with `in` operator  
 - List of dicts (create, loop, filter, sort, max, grouping, avg aggregation)  
-- Lambda with `sorted()`, `max()`, `min()`
-- Dept-wise grouping with nested dict accumulation
-- Average aggregation per group using `sum()` / `len()`
-- Dictionary aggregation from list of dicts (count, sum, avg per group)
-- `.get(key, default)` pattern for clean accumulation without if/else
+- Lambda with `sorted()`, `max()`, `min()`  
+- Dept-wise grouping with nested dict accumulation  
+- Average aggregation per group using `sum()` / `len()`  
+- Dictionary aggregation from list of dicts (count, sum, avg per group)  
+- `.get(key, default)` pattern for clean accumulation without if/else  
+
 ### Pandas
-- Loading CSV with `read_csv()`
-- DataFrame exploration (head, tail, shape, columns, dtypes)
-- Null value detection with `isnull().sum()`
-- Summary statistics with `describe()`
-- Column selection and filtering (single + multiple conditions)
-- `value_counts()` for distribution analysis
-- Sorting with `sort_values()`
-- Grouping with `groupby()` + aggregation (mean)
-- Dropping columns with `drop()`
+- Loading CSV with `read_csv()`  
+- DataFrame exploration (head, tail, shape, columns, dtypes)  
+- Null value detection with `isnull().sum()`  
+- Summary statistics with `describe()`  
+- Column selection and filtering (single + multiple conditions)  
+- `value_counts()` for distribution analysis  
+- Sorting with `sort_values()`  
+- Grouping with `groupby()` + aggregation (mean)  
+- Dropping columns with `drop()`  
+
 ### Excel
 - Basic formulas  
 - VLOOKUP  
 - Pivot Tables  
-- Data summarization and quick analysis
+- Data summarization and quick analysis  
+
 ---
+
 ## 🎯 Objective  
 Building strong SQL logic and clean Python fundamentals before moving to real-world datasets, dashboard creation, and portfolio-level projects.  
+
 Primary Focus: Writing SQL queries independently without relying on solutions.

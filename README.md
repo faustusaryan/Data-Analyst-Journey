@@ -2,19 +2,15 @@
 Goal: Entry-level Data Analyst role in India  
 Timeline: 60 Days  
 Core Tools: SQL, Python, Pandas, Power BI, Excel  
-Current Status: Week 3 — Subqueries + Pandas (Day 20 Completed)
-
+Current Status: Week 3 — Subqueries + Pandas (Day 21 Completed)
 ---
-
 ## 📌 Progress Roadmap  
 - [x] Week 1: SQL Fundamentals + Core Python Basics (Day 1–10)
 - [x] Week 2: SQL Intermediate + Pandas + Excel  
-- [ ] Week 3: Subqueries + Advanced Pandas (In Progress)  
+- [x] Week 3: Subqueries + Advanced Pandas (In Progress)  
 - [ ] Week 4: Window Functions + Power BI  
 - [ ] Week 5–8: Portfolio Projects + Resume + Job Applications  
-
 ---
-
 ## 📅 Daily Log  
 - Day 1: Environment Setup + SQL Audit  
 - Day 2: Python Audit + LinkedIn Setup  
@@ -37,11 +33,9 @@ Current Status: Week 3 — Subqueries + Pandas (Day 20 Completed)
 - Day 18: SQL Database Setup + Basic Queries + Python Aggregation  
 - Day 19: SQL Aggregates + GROUP BY + HAVING + JOINs + Python Dict Patterns  
 - Day 20: SQL Subqueries (WHERE, IN, Derived Table) + Core Python Practice  
-
+- Day 21: Python Groupby Patterns (count, sum, avg by category)  
 ---
-
 ## 🛠 Skills Covered So Far  
-
 ### SQL
 - SELECT, WHERE, DISTINCT  
 - ORDER BY, LIMIT, OFFSET  
@@ -60,7 +54,6 @@ Current Status: Week 3 — Subqueries + Pandas (Day 20 Completed)
 - JOIN with BETWEEN  
 - Real dataset query practice  
 - Logical SQL problem solving  
-
 ### Python
 - Functions, *args  
 - Conditional logic  
@@ -72,8 +65,9 @@ Current Status: Week 3 — Subqueries + Pandas (Day 20 Completed)
 - List of dicts (filter, sort, group, aggregate)  
 - Lambda functions  
 - Group-wise aggregation logic  
+- Groupby patterns (count / sum / avg by category)  
+- `collections.Counter` for frequency counting  
 - Clean problem-solving approach  
-
 ### Pandas
 - Data loading & exploration  
 - Null handling  
@@ -81,15 +75,12 @@ Current Status: Week 3 — Subqueries + Pandas (Day 20 Completed)
 - `value_counts()`  
 - `groupby()` + aggregation  
 - Column operations  
-
 ### Excel
 - Formulas  
 - VLOOKUP  
 - Pivot Tables  
-
 ---
-
 ## 🎯 Objective  
 Strong SQL + Python foundation → move to projects, dashboards, and job-ready portfolio.
-
 Primary Focus: Solve queries independently without copying solutions.
+```

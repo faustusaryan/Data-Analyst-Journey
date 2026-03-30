@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-21%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-22%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -99,7 +99,7 @@ Not a failure — a smarter approach.
 
 | Day | Work Done |
 |---|---|
-| — | — |
+| Day 22 | SQL Review — 20 queries (SELECT, WHERE, GROUP BY, HAVING, ORDER BY, date functions) on a full schema (customers, products, orders, employees) + Python Warmup — 10 exercises (list/dict filtering, grouping, aggregation, frequency counting) |
 
 ---
 
@@ -162,5 +162,5 @@ Will be rebuilt properly in New Weeks 2–3.
 ---
 
 <div align="center">
-<sub>Updated after Day 21 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 22 · Honest progress tracking · No sugarcoating</sub>
 </div>

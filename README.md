@@ -100,7 +100,7 @@ Not a failure — a smarter approach.
 | Day | Work Done |
 |---|---|
 | Day 22 | SQL Review — 20 queries (SELECT, WHERE, GROUP BY, HAVING, ORDER BY, date functions) on a full schema (customers, products, orders, employees) + Python Warmup — 10 exercises (list/dict filtering, grouping, aggregation, frequency counting) |
-| Day 23 | SQL JOINs Deep Practice — 12 queries on a 4-table schema (customers, products, orders, order_items): INNER JOIN, LEFT JOIN, multi-table joins, aggregate joins (SUM/COUNT + GROUP BY), anti-join pattern (LEFT JOIN + IS NULL), filtering on joined tables (WHERE + HAVING) |
+| Day 23 | SQL JOINs Deep Practice — 20 queries across 2 parts on a 4-table schema (customers, orders, order_items, products, employees) · **Part 1 (Q1–Q12):** INNER JOIN, LEFT JOIN, multi-table joins, anti-join pattern (LEFT JOIN + IS NULL), filtering on joined tables · **Part 2 (Q13–Q20):** Self JOIN (employee–manager hierarchy), 3-table JOIN, JOIN + GROUP BY aggregations (SUM/AVG/COUNT), HAVING filter on joined groups, WHERE on joined status, ORDER BY + LIMIT on aggregated results |
 
 ---
 
@@ -112,9 +112,10 @@ Not a failure — a smarter approach.
 - `SELECT` `WHERE` `DISTINCT`
 - `ORDER BY` `LIMIT` `OFFSET`
 - `GROUP BY` `HAVING`
-- Aggregate Functions — `COUNT` `SUM` `AVG` `MIN` `MAX`
+- Aggregate Functions — `COUNT` `SUM` `AVG` `MIN` `MAX` · `ROUND`
 - `CASE WHEN`
 - JOINs — INNER, LEFT, RIGHT, SELF, Multi-table, Anti-Join
+- JOIN + GROUP BY — city-wise revenue, category-wise quantity, avg order amount
 - Subqueries — Scalar, `IN`/`NOT IN`, Derived Tables
 - String Functions
 - `BETWEEN` / `NOT BETWEEN`

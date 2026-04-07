@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-23%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-24%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -101,6 +101,7 @@ Not a failure — a smarter approach.
 |---|---|
 | Day 22 | SQL Review — 20 queries (SELECT, WHERE, GROUP BY, HAVING, ORDER BY, date functions) on a full schema (customers, products, orders, employees) + Python Warmup — 10 exercises (list/dict filtering, grouping, aggregation, frequency counting) |
 | Day 23 | SQL JOINs Deep Practice — 20 queries across 2 parts on a 4-table schema (customers, orders, order_items, products, employees) · **Part 1 (Q1–Q12):** INNER JOIN, LEFT JOIN, multi-table joins, anti-join pattern (LEFT JOIN + IS NULL), filtering on joined tables · **Part 2 (Q13–Q20):** Self JOIN (employee–manager hierarchy), 3-table JOIN, JOIN + GROUP BY aggregations (SUM/AVG/COUNT), HAVING filter on joined groups, WHERE on joined status, ORDER BY + LIMIT on aggregated results |
+| Day 24 | SQL Advanced JOINs — 20 queries: 4-table JOINs, category-wise revenue, city-wise spending (HAVING), LEFT JOIN + IS NULL (never-ordered products), subquery for above-average salary employees, month-wise order trends, DISTINCT + multi-condition filters + Python Dict & Comprehension — 10 exercises: nested dict access, `.get()`, merge (`**unpacking`), list-of-dicts → dict, sort by value, frequency count, grade assignment (chained ternary in comprehension), `.items()` / `.keys()` / `.values()` practice |
 
 ---
 
@@ -119,6 +120,7 @@ Not a failure — a smarter approach.
 - Subqueries — Scalar, `IN`/`NOT IN`, Derived Tables
 - String Functions
 - `BETWEEN` / `NOT BETWEEN`
+- Date Functions — `MONTH()` `YEAR()`
 
 </details>
 
@@ -134,6 +136,9 @@ Not a failure — a smarter approach.
 - Lambda functions
 - Groupby patterns
 - `collections.Counter`
+- Dict merge — `**unpacking`, `.update()`, `|` operator
+- `.items()` `.keys()` `.values()` — practical usage
+- Chained ternary in comprehensions
 
 </details>
 
@@ -164,5 +169,5 @@ Will be rebuilt properly in New Weeks 2–3.
 ---
 
 <div align="center">
-<sub>Updated after Day 23 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 24 · Honest progress tracking · No sugarcoating</sub>
 </div>

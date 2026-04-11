@@ -97,12 +97,12 @@ Not a failure — a smarter approach.
 
 ### Phase 2 — Days 22+ *(updated daily)*
 
-| Day    | Work Done                                                                                                                                                                                                                                                                                                                                                                       |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Day 22 | SQL Review — 20 queries (SELECT, WHERE, GROUP BY, HAVING, ORDER BY, date functions) on a full schema (customers, products, orders, employees) + Python Warmup — 10 exercises                                                                                                                                                                                                    |
-| Day 23 | SQL JOINs Deep Practice — 20 queries across INNER, LEFT, multi-table, anti-join, self JOIN, 3-table JOIN, aggregations, HAVING, ORDER BY + LIMIT                                                                                                                                                                                                                                |
-| Day 24 | SQL Advanced JOINs — 20 queries: 4-table JOINs, category revenue, city spending, anti-join, subqueries, trends + Python dict & comprehension                                                                                                                                                                                                                                    |
-| Day 25 | SQL Subqueries Part 1 (Q1–15) — IN / NOT IN, scalar subqueries (AVG, MAX), FROM subqueries (derived tables), correlated subqueries, HAVING filters, real-world patterns (top customers, revenue by month, city filtering) + SQL Subqueries Part 2 (Q16–20) — multiple IN subqueries, nested subquery (2nd highest salary), nested FROM in HAVING, city with max total spending + Python — 5 dict comprehension warmups (filter, transform, grading, frequency count) + 3 function exercises: `get_unique` (order-preserving dedup), `sort_by_key` (default params + lambda), `calculate_stats` (mean / median / mode using `Counter`) |
+| Day    | Work Done                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Day 22 | SQL Review — 20 queries (SELECT, WHERE, GROUP BY, HAVING, ORDER BY, date functions) on a full schema (customers, products, orders, employees) + Python Warmup — 10 exercises                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Day 23 | SQL JOINs Deep Practice — 20 queries across INNER, LEFT, multi-table, anti-join, self JOIN, 3-table JOIN, aggregations, HAVING, ORDER BY + LIMIT                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Day 24 | SQL Advanced JOINs — 20 queries: 4-table JOINs, category revenue, city spending, anti-join, subqueries, trends + Python dict & comprehension                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Day 25 | SQL Subqueries Part 1 (Q1–15) — IN / NOT IN, scalar subqueries (AVG, MAX), FROM subqueries (derived tables), correlated subqueries, HAVING filters, real-world patterns (top customers, revenue by month, city filtering) + SQL Subqueries Part 2 (Q16–20) — multiple IN subqueries, nested subquery (2nd highest salary), nested FROM in HAVING, city with max total spending + Python Functions (10 problems) — `get_unique` (order-preserving dedup), `sort_by_key` (lambda + default params), `calculate_stats` (mean/median/mode), lambda tuple sorting, `*args` avg, `**kwargs` printer, `most_frequent_char`, `quarterly_summary`, `validate_employee` (rule-based), transaction analysis (total/avg/max) |
 
 ---
 
@@ -128,7 +128,7 @@ Not a failure — a smarter approach.
 <details>
 <summary><strong>Python ⚠️ — Logic clear, syntax shaky</strong></summary>
 
-* Functions, `*args`, default parameters
+* Functions, `*args`, `**kwargs`, default parameters
 * Conditional logic
 * List Comprehension
 * Dictionary operations & patterns
@@ -140,7 +140,7 @@ Not a failure — a smarter approach.
 * Dict merge — `**unpacking`, `.update()`, `|` operator
 * `.items()` `.keys()` `.values()`
 * Chained ternary in comprehensions
-* Functions — order-preserving dedup, sort by key, stats (mean/median/mode)
+* Functions — order-preserving dedup, sort by key, stats (mean/median/mode), most frequent char, quarterly revenue grouping, input validation, transaction analysis (total/avg/max)
 
 </details>
 

@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-25%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-26%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -29,14 +29,14 @@ Not a failure — a smarter approach.
 
 ## 📍 Current Skill Status
 
-| Skill          | Level                | Status                                        |
-| -------------- | -------------------- | --------------------------------------------- |
-| **SQL**        | Basic → Intermediate | ✅ Solid — JOINs, Subqueries, GROUP BY working |
-| **Python**     | Basic                | ⚠️ Logic clear, syntax inconsistent           |
-| **Pandas**     | Near Zero            | 🔄 Rebuilding from scratch                    |
-| **Excel**      | Not Functional       | 🔄 To be covered properly                     |
-| **Power BI**   | Not Started          | ⬜ Upcoming                                    |
-| **Statistics** | Not Started          | ⬜ Upcoming                                    |
+| Skill          | Level                | Status                                          |
+| -------------- | -------------------- | ----------------------------------------------- |
+| **SQL**        | Basic → Intermediate | ✅ Solid — JOINs, Subqueries, CASE WHEN working  |
+| **Python**     | Basic                | ⚠️ Logic clear, syntax inconsistent             |
+| **Pandas**     | Near Zero            | 🔄 Rebuilding from scratch                      |
+| **Excel**      | Not Functional       | 🔄 To be covered properly                       |
+| **Power BI**   | Not Started          | ⬜ Upcoming                                      |
+| **Statistics** | Not Started          | ⬜ Upcoming                                      |
 
 > Pandas and Excel were "touched" in Phase 1 but not retained. Marked honestly.
 
@@ -97,12 +97,13 @@ Not a failure — a smarter approach.
 
 ### Phase 2 — Days 22+ *(updated daily)*
 
-| Day    | Work Done                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Day 22 | SQL Review — 20 queries (SELECT, WHERE, GROUP BY, HAVING, ORDER BY, date functions) on a full schema (customers, products, orders, employees) + Python Warmup — 10 exercises                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Day 23 | SQL JOINs Deep Practice — 20 queries across INNER, LEFT, multi-table, anti-join, self JOIN, 3-table JOIN, aggregations, HAVING, ORDER BY + LIMIT                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Day 24 | SQL Advanced JOINs — 20 queries: 4-table JOINs, category revenue, city spending, anti-join, subqueries, trends + Python dict & comprehension                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Day    | Work Done |
+| ------ | --------- |
+| Day 22 | SQL Review — 20 queries (SELECT, WHERE, GROUP BY, HAVING, ORDER BY, date functions) on a full schema (customers, products, orders, employees) + Python Warmup — 10 exercises |
+| Day 23 | SQL JOINs Deep Practice — 20 queries across INNER, LEFT, multi-table, anti-join, self JOIN, 3-table JOIN, aggregations, HAVING, ORDER BY + LIMIT |
+| Day 24 | SQL Advanced JOINs — 20 queries: 4-table JOINs, category revenue, city spending, anti-join, subqueries, trends + Python dict & comprehension |
 | Day 25 | SQL Subqueries Part 1 (Q1–15) — IN / NOT IN, scalar subqueries (AVG, MAX), FROM subqueries (derived tables), correlated subqueries, HAVING filters, real-world patterns (top customers, revenue by month, city filtering) + SQL Subqueries Part 2 (Q16–20) — multiple IN subqueries, nested subquery (2nd highest salary), nested FROM in HAVING, city with max total spending + Python Functions (10 problems) — `get_unique` (order-preserving dedup), `sort_by_key` (lambda + default params), `calculate_stats` (mean/median/mode), lambda tuple sorting, `*args` avg, `**kwargs` printer, `most_frequent_char`, `quarterly_summary`, `validate_employee` (rule-based), transaction analysis (total/avg/max) |
+| Day 26 | SQL CASE WHEN Deep Practice — 15 queries: order/salary/stock/age categorization, GROUP BY with CASE, pivot-style conditional aggregation, monthly revenue performance, order status breakdown (delivered/pending/cancelled), multi-column CASE, JOIN + CASE, customer VIP classification, city-wise delivery rate + Python Mixed Practice |
 
 ---
 
@@ -115,7 +116,7 @@ Not a failure — a smarter approach.
 * `ORDER BY` `LIMIT` `OFFSET`
 * `GROUP BY` `HAVING`
 * Aggregate Functions — `COUNT` `SUM` `AVG` `MIN` `MAX` · `ROUND`
-* `CASE WHEN`
+* `CASE WHEN` — simple, multi-column, with GROUP BY, with JOINs, pivot-style conditional aggregation
 * JOINs — INNER, LEFT, RIGHT, SELF, Multi-table, Anti-Join
 * JOIN + GROUP BY — city-wise revenue, category-wise quantity, avg order amount
 * Subqueries — Scalar, `IN`/`NOT IN`, Derived Tables, Correlated, Nested (2nd highest salary, nested FROM in HAVING)
@@ -173,5 +174,5 @@ Will be rebuilt properly in New Weeks 2–3.
 ---
 
 <div align="center">
-<sub>Updated after Day 25 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 26 · Honest progress tracking · No sugarcoating</sub>
 </div>

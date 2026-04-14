@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-27%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-28%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -56,7 +56,7 @@ Not a failure — a smarter approach.
 
 | Week          | Journey Days | Focus                                      | Status     |
 | ------------- | ------------ | ------------------------------------------ | ---------- |
-| New Week 1    | Days 22–28   | SQL consolidation + Python strengthening   | 🔄 Current |
+| New Week 1    | Days 22–28   | SQL consolidation + Python strengthening   | ✅ Done     |
 | New Week 2    | Days 29–35   | Window Functions + CTEs + Pandas intro     | ⬜          |
 | New Week 3    | Days 36–42   | Pandas deep dive + Excel                   | ⬜          |
 | New Week 4    | Days 43–49   | Power BI + Statistics + Mini Project       | ⬜          |
@@ -105,6 +105,7 @@ Not a failure — a smarter approach.
 | Day 25 | SQL Subqueries Part 1 (Q1–15) — IN / NOT IN, scalar subqueries (AVG, MAX), FROM subqueries (derived tables), correlated subqueries, HAVING filters, real-world patterns (top customers, revenue by month, city filtering) + SQL Subqueries Part 2 (Q16–20) — multiple IN subqueries, nested subquery (2nd highest salary), nested FROM in HAVING, city with max total spending + Python Functions (10 problems) — `get_unique` (order-preserving dedup), `sort_by_key` (lambda + default params), `calculate_stats` (mean/median/mode), lambda tuple sorting, `*args` avg, `**kwargs` printer, `most_frequent_char`, `quarterly_summary`, `validate_employee` (rule-based), transaction analysis (total/avg/max) |
 | Day 26 | SQL CASE WHEN Deep Practice — 15 queries: order/salary/stock/age categorization, GROUP BY with CASE, pivot-style conditional aggregation, monthly revenue performance, order status breakdown (delivered/pending/cancelled), multi-column CASE, JOIN + CASE, customer VIP classification, city-wise delivery rate + Python Mixed Practice |
 | Day 27 | SQL Mixed Practice — 10 queries: JOINs + GROUP BY + CASE WHEN (customer VIP classification, product performance labels), HAVING with subquery, department salary breakdown (senior/mid/junior pivot), monthly order analysis, self JOIN (employee-manager), city revenue top 3, order status percentage, dept avg salary comparison, RANK() window function for top product per category + Python String Ops — 10 problems: name cleaning (strip + title), name tuple extraction, phone number standardization (regex), salary string to int, all/any filters, sort by length (stable sort), integer filtering (bool subclass edge case), string operations (strip/lower/replace/count/startswith), email validation, f-string formatting with `{:,}` |
+| Day 28 | **Week 4 Test Day** — SQL Test (10 problems): WHERE multi-condition filter, JOIN + city/status filter, GROUP BY + HAVING (dept salary aggregates), JOIN + GROUP BY + CASE WHEN (VIP classification), monthly pivot with SUM(CASE WHEN), LEFT JOIN anti-join (unordered products), derived table JOIN (employee vs dept avg), LIMIT 1 top city, order status percentage with subquery, 4-table JOIN — + Python Test (10 problems): list comprehension filter/sum (Delivered total), avg with round, status count dict, city-wise total spending, month-wise revenue, top city by spending, amount categorization (High/Medium/Low), customers with >1 transaction, unique cities, sort by amount descending returning tuples |
 
 ---
 
@@ -182,5 +183,5 @@ Will be rebuilt properly in New Weeks 2–3.
 ---
 
 <div align="center">
-<sub>Updated after Day 27 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 28 · Honest progress tracking · No sugarcoating</sub>
 </div>

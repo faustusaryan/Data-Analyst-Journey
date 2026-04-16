@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-29%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-30%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -31,7 +31,7 @@ Not a failure — a smarter approach.
 
 | Skill          | Level                | Status                                          |
 | -------------- | -------------------- | ----------------------------------------------- |
-| **SQL**        | Basic → Intermediate | ✅ Solid — JOINs, Subqueries, CASE WHEN working  |
+| **SQL**        | Basic → Intermediate | ✅ Solid — JOINs, Subqueries, CASE WHEN, Window Functions working  |
 | **Python**     | Basic                | ⚠️ Logic clear, syntax inconsistent             |
 | **Pandas**     | Near Zero            | 🔄 Rebuilding from scratch                      |
 | **Excel**      | Not Functional       | 🔄 To be covered properly                       |
@@ -107,6 +107,7 @@ Not a failure — a smarter approach.
 | Day 27 | SQL Mixed Practice — 10 queries: JOINs + GROUP BY + CASE WHEN (customer VIP classification, product performance labels), HAVING with subquery, department salary breakdown (senior/mid/junior pivot), monthly order analysis, self JOIN (employee-manager), city revenue top 3, order status percentage, dept avg salary comparison, RANK() window function for top product per category + Python String Ops — 10 problems: name cleaning (strip + title), name tuple extraction, phone number standardization (regex), salary string to int, all/any filters, sort by length (stable sort), integer filtering (bool subclass edge case), string operations (strip/lower/replace/count/startswith), email validation, f-string formatting with `{:,}` |
 | Day 28 | **Week 4 Test Day** — SQL Test (10 problems): WHERE multi-condition filter, JOIN + city/status filter, GROUP BY + HAVING (dept salary aggregates), JOIN + GROUP BY + CASE WHEN (VIP classification), monthly pivot with SUM(CASE WHEN), LEFT JOIN anti-join (unordered products), derived table JOIN (employee vs dept avg), LIMIT 1 top city, order status percentage with subquery, 4-table JOIN — + Python Test (10 problems): list comprehension filter/sum (Delivered total), avg with round, status count dict, city-wise total spending, month-wise revenue, top city by spending, amount categorization (High/Medium/Low), customers with >1 transaction, unique cities, sort by amount descending returning tuples |
 | Day 29 | SQL String Functions — 15 queries: UPPER/LOWER, LENGTH/CHAR_LENGTH, SUBSTRING, INSTR (domain extraction from email), REPLACE, CONCAT (full employee info), TRIM, LIKE (starts with / ends with / contains), LPAD/RPAD (ID formatting), LEFT/RIGHT, INSTR + SUBSTRING for first/last name split, GROUP_CONCAT with ORDER BY and SEPARATOR |
+| Day 30 | SQL Window Functions — 14 queries: ROW_NUMBER / RANK / DENSE_RANK (global + per-department), TOP-N filtering with subquery/CTE, running totals + cumulative sums (global + partitioned), LAG/LEAD for previous/next order amounts (per-customer), FIRST_VALUE / LAST_VALUE with explicit frame clause, AVG over partition without GROUP BY, WINDOW alias reuse |
 
 ---
 
@@ -123,7 +124,7 @@ Not a failure — a smarter approach.
 * JOINs — INNER, LEFT, RIGHT, SELF, Multi-table, Anti-Join
 * JOIN + GROUP BY — city-wise revenue, category-wise quantity, avg order amount
 * Subqueries — Scalar, `IN`/`NOT IN`, Derived Tables, Correlated, Nested (2nd highest salary, nested FROM in HAVING)
-* Window Functions — `RANK() OVER (PARTITION BY ... ORDER BY ...)`
+* Window Functions — `ROW_NUMBER` `RANK` `DENSE_RANK` `LAG` `LEAD` `FIRST_VALUE` `LAST_VALUE` `SUM() OVER` `AVG() OVER` · `PARTITION BY` · `ROWS BETWEEN` frame clause · `WINDOW` alias
 * String Functions — `UPPER` `LOWER` `LENGTH` `CHAR_LENGTH` `SUBSTRING` `INSTR` `REPLACE` `CONCAT` `TRIM` `LIKE` `LPAD` `RPAD` `LEFT` `RIGHT` `GROUP_CONCAT`
 * `BETWEEN` / `NOT BETWEEN`
 * Date Functions — `MONTH()` `YEAR()`
@@ -184,5 +185,5 @@ Will be rebuilt properly in New Weeks 2–3.
 ---
 
 <div align="center">
-<sub>Updated after Day 29 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 30 · Honest progress tracking · No sugarcoating</sub>
 </div>

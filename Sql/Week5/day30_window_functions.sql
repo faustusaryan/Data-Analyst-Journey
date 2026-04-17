@@ -199,3 +199,32 @@ SELECT
     ) AS last_order
 FROM orders o
 INNER JOIN customers c ON o.customer_id = c.id;
+
+-- 15. Problem Statement
+-- Find the top revenue-generating product within each category.
+-- Calculate revenue as quantity × unit_price from order_items.
+-- Rank products per category — return only rank-1 product per category.
+
+WITH t AS (
+    SELECT
+        p.category,
+        p.name,
+        SUM(oi.quantity * oi.unit_price) AS total_revenue,
+        RANK() OVER (PARTITION BY p.category ORDER BY SUM(oi.quantity * oi.unit_price) DESC)
+            AS product_rank
+    FROM products p
+    JOIN order_items oi
+        ON p.id = oi.product_id
+    GROUP BY p.category, p.name   
+)
+SELECT
+    category,
+    name,
+    total_revenue
+FROM t
+WHERE product_rank = 1;
+
+
+
+
+

@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-30%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-31%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -31,7 +31,7 @@ Not a failure — a smarter approach.
 
 | Skill          | Level                | Status                                          |
 | -------------- | -------------------- | ----------------------------------------------- |
-| **SQL**        | Basic → Intermediate | ✅ Solid — JOINs, Subqueries, CASE WHEN, Window Functions working  |
+| **SQL**        | Basic → Intermediate | ✅ Solid — JOINs, Subqueries, CASE WHEN, Window Functions, CTEs working |
 | **Python**     | Basic                | ⚠️ Logic clear, syntax inconsistent             |
 | **Pandas**     | Near Zero            | 🔄 Rebuilding from scratch                      |
 | **Excel**      | Not Functional       | 🔄 To be covered properly                       |
@@ -107,7 +107,8 @@ Not a failure — a smarter approach.
 | Day 27 | SQL Mixed Practice — 10 queries: JOINs + GROUP BY + CASE WHEN (customer VIP classification, product performance labels), HAVING with subquery, department salary breakdown (senior/mid/junior pivot), monthly order analysis, self JOIN (employee-manager), city revenue top 3, order status percentage, dept avg salary comparison, RANK() window function for top product per category + Python String Ops — 10 problems: name cleaning (strip + title), name tuple extraction, phone number standardization (regex), salary string to int, all/any filters, sort by length (stable sort), integer filtering (bool subclass edge case), string operations (strip/lower/replace/count/startswith), email validation, f-string formatting with `{:,}` |
 | Day 28 | **Week 4 Test Day** — SQL Test (10 problems): WHERE multi-condition filter, JOIN + city/status filter, GROUP BY + HAVING (dept salary aggregates), JOIN + GROUP BY + CASE WHEN (VIP classification), monthly pivot with SUM(CASE WHEN), LEFT JOIN anti-join (unordered products), derived table JOIN (employee vs dept avg), LIMIT 1 top city, order status percentage with subquery, 4-table JOIN — + Python Test (10 problems): list comprehension filter/sum (Delivered total), avg with round, status count dict, city-wise total spending, month-wise revenue, top city by spending, amount categorization (High/Medium/Low), customers with >1 transaction, unique cities, sort by amount descending returning tuples |
 | Day 29 | SQL String Functions — 15 queries: UPPER/LOWER, LENGTH/CHAR_LENGTH, SUBSTRING, INSTR (domain extraction from email), REPLACE, CONCAT (full employee info), TRIM, LIKE (starts with / ends with / contains), LPAD/RPAD (ID formatting), LEFT/RIGHT, INSTR + SUBSTRING for first/last name split, GROUP_CONCAT with ORDER BY and SEPARATOR |
-| Day 30 | SQL Window Functions — 14 queries: ROW_NUMBER / RANK / DENSE_RANK (global + per-department), TOP-N filtering with subquery/CTE, running totals + cumulative sums (global + partitioned), LAG/LEAD for previous/next order amounts (per-customer), FIRST_VALUE / LAST_VALUE with explicit frame clause, AVG over partition without GROUP BY, WINDOW alias reuse |
+| Day 30 | SQL Window Functions — 15 queries: ROW_NUMBER / RANK / DENSE_RANK (global + per-department), TOP-N filtering with subquery/CTE, running totals + cumulative sums (global + partitioned), LAG/LEAD for previous/next order amounts (per-customer), FIRST_VALUE / LAST_VALUE with explicit frame clause, AVG over partition without GROUP BY, WINDOW alias reuse |
+| Day 31 | SQL CTEs — 10 queries: basic CTE (avg salary filter), chained CTEs (customer spending vs avg), CTE + window function (top-3 product revenue with DENSE_RANK), multi-CTE active customer filter (≥2 delivered orders), CTE for TOP-N per partition (top 2 salary per dept with RANK), CTE + CASE WHEN (monthly revenue vs avg, Above/Below label), CTE + LAG (month-over-month revenue diff), PERCENT_RANK() with WINDOW alias (salary percentile by dept), recursive CTE (org hierarchy tree — level + full path), full customer report CTE (LEFT JOIN + IFNULL + DENSE_RANK) |
 
 ---
 
@@ -124,10 +125,11 @@ Not a failure — a smarter approach.
 * JOINs — INNER, LEFT, RIGHT, SELF, Multi-table, Anti-Join
 * JOIN + GROUP BY — city-wise revenue, category-wise quantity, avg order amount
 * Subqueries — Scalar, `IN`/`NOT IN`, Derived Tables, Correlated, Nested (2nd highest salary, nested FROM in HAVING)
-* Window Functions — `ROW_NUMBER` `RANK` `DENSE_RANK` `LAG` `LEAD` `FIRST_VALUE` `LAST_VALUE` `SUM() OVER` `AVG() OVER` · `PARTITION BY` · `ROWS BETWEEN` frame clause · `WINDOW` alias
+* Window Functions — `ROW_NUMBER` `RANK` `DENSE_RANK` `LAG` `LEAD` `FIRST_VALUE` `LAST_VALUE` `SUM() OVER` `AVG() OVER` `PERCENT_RANK()` · `PARTITION BY` · `ROWS BETWEEN` frame clause · `WINDOW` alias
+* CTEs — basic (single), chained (multi-CTE), CTE + Window Function (TOP-N filter), recursive CTE (`WITH RECURSIVE` — hierarchy tree, level tracking, path building) · `IFNULL` · `CROSS JOIN` for scalar CTE values
 * String Functions — `UPPER` `LOWER` `LENGTH` `CHAR_LENGTH` `SUBSTRING` `INSTR` `REPLACE` `CONCAT` `TRIM` `LIKE` `LPAD` `RPAD` `LEFT` `RIGHT` `GROUP_CONCAT`
 * `BETWEEN` / `NOT BETWEEN`
-* Date Functions — `MONTH()` `YEAR()`
+* Date Functions — `MONTH()` `YEAR()` `MONTHNAME()`
 
 </details>
 
@@ -185,5 +187,5 @@ Will be rebuilt properly in New Weeks 2–3.
 ---
 
 <div align="center">
-<sub>Updated after Day 30 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 31 · Honest progress tracking · No sugarcoating</sub>
 </div>

@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-31%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-32%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -109,6 +109,7 @@ Not a failure — a smarter approach.
 | Day 29 | SQL String Functions — 15 queries: UPPER/LOWER, LENGTH/CHAR_LENGTH, SUBSTRING, INSTR (domain extraction from email), REPLACE, CONCAT (full employee info), TRIM, LIKE (starts with / ends with / contains), LPAD/RPAD (ID formatting), LEFT/RIGHT, INSTR + SUBSTRING for first/last name split, GROUP_CONCAT with ORDER BY and SEPARATOR |
 | Day 30 | SQL Window Functions — 15 queries: ROW_NUMBER / RANK / DENSE_RANK (global + per-department), TOP-N filtering with subquery/CTE, running totals + cumulative sums (global + partitioned), LAG/LEAD for previous/next order amounts (per-customer), FIRST_VALUE / LAST_VALUE with explicit frame clause, AVG over partition without GROUP BY, WINDOW alias reuse |
 | Day 31 | SQL CTEs — 10 queries: basic CTE (avg salary filter), chained CTEs (customer spending vs avg), CTE + window function (top-3 product revenue with DENSE_RANK), multi-CTE active customer filter (≥2 delivered orders), CTE for TOP-N per partition (top 2 salary per dept with RANK), CTE + CASE WHEN (monthly revenue vs avg, Above/Below label), CTE + LAG (month-over-month revenue diff), PERCENT_RANK() with WINDOW alias (salary percentile by dept), recursive CTE (org hierarchy tree — level + full path), full customer report CTE (LEFT JOIN + IFNULL + DENSE_RANK) |
+| Day 32 | SQL Window Functions Practice (Insurance Dataset) — DENSE_RANK (top 5 claimants), AVG/MIN/MAX OVER PARTITION BY (children, region), COUNT with CASE WHEN (smoker % by age group) |
 
 ---
 
@@ -187,5 +188,5 @@ Will be rebuilt properly in New Weeks 2–3.
 ---
 
 <div align="center">
-<sub>Updated after Day 31 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 32 · Honest progress tracking · No sugarcoating</sub>
 </div>

@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-33%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-34%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -111,6 +111,7 @@ Not a failure — a smarter approach.
 | Day 31 | SQL CTEs — 10 queries: basic CTE (avg salary filter), chained CTEs (customer spending vs avg), CTE + window function (top-3 product revenue with DENSE_RANK), multi-CTE active customer filter (≥2 delivered orders), CTE for TOP-N per partition (top 2 salary per dept with RANK), CTE + CASE WHEN (monthly revenue vs avg, Above/Below label), CTE + LAG (month-over-month revenue diff), PERCENT_RANK() with WINDOW alias (salary percentile by dept), recursive CTE (org hierarchy tree — level + full path), full customer report CTE (LEFT JOIN + IFNULL + DENSE_RANK) |
 | Day 32 | SQL Window Functions Practice (Insurance Dataset) — DENSE_RANK (top 5 claimants), AVG/MIN/MAX OVER PARTITION BY (children, region), COUNT with CASE WHEN (smoker % by age group) |
 | Day 33 | **Restart day after a gap.** SQL Subquery revision — 5 focused queries written independently without reference: NOT IN anti-join (customers with no orders, products never ordered), scalar subquery (orders above AVG), nested subquery for max salary per dept, IN subquery with city filter. All correct on first attempt. |
+| Day 34 | SQL Window Functions Revision (2 files) — Part 1: RANK / DENSE_RANK global + per-department, top-2 salary per dept with CTE + RANK, ROW_NUMBER per customer by order date, DENSE_RANK vs RANK comparison — Part 2: LAG (previous order amount per customer), LEAD (next order amount per customer), LAG-based diff (current minus previous order, handles negatives) — all 8 queries written independently |
 
 ---
 
@@ -189,5 +190,5 @@ Will be rebuilt properly in New Weeks 2–3.
 ---
 
 <div align="center">
-<sub>Updated after Day 33 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 34 · Honest progress tracking · No sugarcoating</sub>
 </div>

@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-35%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-36%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -23,7 +23,7 @@ Not a failure — a smarter approach.
 60 days → 81 days (21 days done + new 60-day plan from Day 22)
 ```
 
-**Daily Time:** 6+ hours  |  **Tools:** MySQL Workbench · Jupyter Lab · Excel · Power BI
+**Daily Time:** 3–5 hours  |  **Tools:** MySQL Workbench · Jupyter Lab · Excel · Power BI
 
 ---
 
@@ -31,7 +31,7 @@ Not a failure — a smarter approach.
 
 | Skill          | Level                | Status                                          |
 | -------------- | -------------------- | ----------------------------------------------- |
-| **SQL**        | Basic → Intermediate | ✅ Solid — JOINs, Subqueries, CASE WHEN, Window Functions, CTEs working |
+| **SQL**        | Intermediate | ✅ Solid — JOINs, Subqueries, CASE WHEN, Window Functions, CTEs working |
 | **Python**     | Basic                | ⚠️ Logic clear, syntax inconsistent             |
 | **Pandas**     | Near Zero            | 🔄 Rebuilding from scratch                      |
 | **Excel**      | Not Functional       | 🔄 To be covered properly                       |
@@ -58,7 +58,7 @@ Not a failure — a smarter approach.
 | ------------- | ------------ | ------------------------------------------ | ---------- |
 | New Week 1    | Days 22–28   | SQL consolidation + Python strengthening   | ✅ Done     |
 | New Week 2    | Days 29–35   | Window Functions + CTEs + Pandas intro     | ✅ Done     |
-| New Week 3    | Days 36–42   | Pandas deep dive + Excel                   | ⬜          |
+| New Week 3    | Days 36–42   | SQL revision + Pandas + project start      | 🔄 Active  |
 | New Week 4    | Days 43–49   | Power BI + Statistics + Mini Project       | ⬜          |
 | New Weeks 5–8 | Days 50–81   | Portfolio Projects + Resume + Applications | ⬜          |
 
@@ -113,6 +113,7 @@ Not a failure — a smarter approach.
 | Day 33 | **Restart day after a gap.** SQL Subquery revision — 5 focused queries written independently without reference: NOT IN anti-join (customers with no orders, products never ordered), scalar subquery (orders above AVG), nested subquery for max salary per dept, IN subquery with city filter. All correct on first attempt. |
 | Day 34 | SQL Window Functions Revision (2 files) — Part 1: RANK / DENSE_RANK global + per-department, top-2 salary per dept with CTE + RANK, ROW_NUMBER per customer by order date, DENSE_RANK vs RANK comparison — Part 2: LAG (previous order amount per customer), LEAD (next order amount per customer), LAG-based diff (current minus previous order, handles negatives) — all 8 queries written independently |
 | Day 35 | SQL Window Functions — FIRST_VALUE / LAST_VALUE (3 queries): first hired employee salary per dept, highest salary per dept using LAST_VALUE with correct `ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING` frame clause, CTE + FIRST_VALUE to filter employees earning above their dept's first hire — Pandas Basics (Titanic): `df.head()` `df.shape` `df.dtypes` `df.isnull().sum()` `df.describe()`, single-condition filtering, multiple-condition filtering with `&` — Pandas groupby + agg (Titanic): `groupby` + `mean/sum/count`, multi-column groupby (`['Pclass','Sex']`), `.agg()` with multiple aggregations simultaneously, `sort_values(ascending=False)` on grouped results |
+| Day 36 | **Restart after 2-month break.** SQL diagnostic — 5 questions from memory: JOIN + GROUP BY, Subquery with IN, CASE WHEN + GROUP BY, RANK() with PARTITION BY, chained CTEs. Score: 4/5 — CTE chaining gap identified (Q5 copied). SQL core logic fully intact after break. |
 
 ---
 
@@ -195,5 +196,5 @@ Not a failure — a smarter approach.
 ---
 
 <div align="center">
-<sub>Updated after Day 35 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 36 · Honest progress tracking · No sugarcoating</sub>
 </div>

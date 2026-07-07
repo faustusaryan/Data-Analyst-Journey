@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-36%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-37%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -114,6 +114,7 @@ Not a failure — a smarter approach.
 | Day 34 | SQL Window Functions Revision (2 files) — Part 1: RANK / DENSE_RANK global + per-department, top-2 salary per dept with CTE + RANK, ROW_NUMBER per customer by order date, DENSE_RANK vs RANK comparison — Part 2: LAG (previous order amount per customer), LEAD (next order amount per customer), LAG-based diff (current minus previous order, handles negatives) — all 8 queries written independently |
 | Day 35 | SQL Window Functions — FIRST_VALUE / LAST_VALUE (3 queries): first hired employee salary per dept, highest salary per dept using LAST_VALUE with correct `ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING` frame clause, CTE + FIRST_VALUE to filter employees earning above their dept's first hire — Pandas Basics (Titanic): `df.head()` `df.shape` `df.dtypes` `df.isnull().sum()` `df.describe()`, single-condition filtering, multiple-condition filtering with `&` — Pandas groupby + agg (Titanic): `groupby` + `mean/sum/count`, multi-column groupby (`['Pclass','Sex']`), `.agg()` with multiple aggregations simultaneously, `sort_values(ascending=False)` on grouped results |
 | Day 36 | **Restart after 2-month break.** SQL diagnostic — 5 questions from memory: JOIN + GROUP BY, Subquery with IN, CASE WHEN + GROUP BY, RANK() with PARTITION BY, chained CTEs. Score: 4/5 — CTE chaining gap identified (Q5 copied). SQL core logic fully intact after break. |
+| Day 37 | **Superstore project started.** Imported 9800-row Superstore Sales dataset into MySQL using LOAD DATA INFILE. 5 business queries written — total sales by Category, top 5 customers by sales, sales by Region, monthly sales trend for 2017 (STR_TO_DATE + WHERE year filter), top 3 sub-categories per Region (CTE + RANK + PARTITION BY). Q4 had HAVING vs WHERE confusion — corrected. Q5 CTE structure written independently after concept explanation. |
 
 ---
 
@@ -134,7 +135,7 @@ Not a failure — a smarter approach.
 * CTEs — basic (single), chained (multi-CTE), CTE + Window Function (TOP-N filter), recursive CTE (`WITH RECURSIVE` — hierarchy tree, level tracking, path building) · `IFNULL` · `CROSS JOIN` for scalar CTE values
 * String Functions — `UPPER` `LOWER` `LENGTH` `CHAR_LENGTH` `SUBSTRING` `INSTR` `REPLACE` `CONCAT` `TRIM` `LIKE` `LPAD` `RPAD` `LEFT` `RIGHT` `GROUP_CONCAT`
 * `BETWEEN` / `NOT BETWEEN`
-* Date Functions — `MONTH()` `YEAR()` `MONTHNAME()`
+* Date Functions — `MONTH()` `YEAR()` `MONTHNAME()` · `STR_TO_DATE()` for VARCHAR date conversion
 
 </details>
 
@@ -196,5 +197,5 @@ Not a failure — a smarter approach.
 ---
 
 <div align="center">
-<sub>Updated after Day 36 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 37 · Honest progress tracking · No sugarcoating</sub>
 </div>

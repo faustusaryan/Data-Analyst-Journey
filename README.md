@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-37%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-38%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -115,6 +115,7 @@ Not a failure — a smarter approach.
 | Day 35 | SQL Window Functions — FIRST_VALUE / LAST_VALUE (3 queries): first hired employee salary per dept, highest salary per dept using LAST_VALUE with correct `ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING` frame clause, CTE + FIRST_VALUE to filter employees earning above their dept's first hire — Pandas Basics (Titanic): `df.head()` `df.shape` `df.dtypes` `df.isnull().sum()` `df.describe()`, single-condition filtering, multiple-condition filtering with `&` — Pandas groupby + agg (Titanic): `groupby` + `mean/sum/count`, multi-column groupby (`['Pclass','Sex']`), `.agg()` with multiple aggregations simultaneously, `sort_values(ascending=False)` on grouped results |
 | Day 36 | **Restart after 2-month break.** SQL diagnostic — 5 questions from memory: JOIN + GROUP BY, Subquery with IN, CASE WHEN + GROUP BY, RANK() with PARTITION BY, chained CTEs. Score: 4/5 — CTE chaining gap identified (Q5 copied). SQL core logic fully intact after break. |
 | Day 37 | **Superstore project started.** Imported 9800-row Superstore Sales dataset into MySQL using LOAD DATA INFILE. 5 business queries written — total sales by Category, top 5 customers by sales, sales by Region, monthly sales trend for 2017 (STR_TO_DATE + WHERE year filter), top 3 sub-categories per Region (CTE + RANK + PARTITION BY). Q4 had HAVING vs WHERE confusion — corrected. Q5 CTE structure written independently after concept explanation. |
+| Day 38 | **Superstore project continued.** 5 more business queries — region-wise top ship_mode by delivery count (RANK + PARTITION BY, subquery style), best-selling month in 2018 (STR_TO_DATE + MONTHNAME + ORDER BY + LIMIT 1), avg order value per category filtered to Second Class ship mode, top 2 customers by sales per segment (CTE + RANK + PARTITION BY segment), 2017 vs 2018 total sales pivot (SUM + CASE WHEN). Rewrote Q1 as a CTE right after the subquery version to lock in CTE-vs-subquery equivalence — same logic, different syntax, now clear both ways. |
 
 ---
 
@@ -132,7 +133,7 @@ Not a failure — a smarter approach.
 * JOIN + GROUP BY — city-wise revenue, category-wise quantity, avg order amount
 * Subqueries — Scalar, `IN`/`NOT IN`, Derived Tables, Correlated, Nested (2nd highest salary, nested FROM in HAVING)
 * Window Functions — `ROW_NUMBER` `RANK` `DENSE_RANK` `LAG` `LEAD` `FIRST_VALUE` `LAST_VALUE` `SUM() OVER` `AVG() OVER` `PERCENT_RANK()` · `PARTITION BY` · `ROWS BETWEEN` frame clause · `WINDOW` alias
-* CTEs — basic (single), chained (multi-CTE), CTE + Window Function (TOP-N filter), recursive CTE (`WITH RECURSIVE` — hierarchy tree, level tracking, path building) · `IFNULL` · `CROSS JOIN` for scalar CTE values
+* CTEs — basic (single), chained (multi-CTE), CTE + Window Function (TOP-N filter), recursive CTE (`WITH RECURSIVE` — hierarchy tree, level tracking, path building) · `IFNULL` · `CROSS JOIN` for scalar CTE values · CTE vs Subquery equivalence (same result, rewritten both ways)
 * String Functions — `UPPER` `LOWER` `LENGTH` `CHAR_LENGTH` `SUBSTRING` `INSTR` `REPLACE` `CONCAT` `TRIM` `LIKE` `LPAD` `RPAD` `LEFT` `RIGHT` `GROUP_CONCAT`
 * `BETWEEN` / `NOT BETWEEN`
 * Date Functions — `MONTH()` `YEAR()` `MONTHNAME()` · `STR_TO_DATE()` for VARCHAR date conversion
@@ -197,5 +198,5 @@ Not a failure — a smarter approach.
 ---
 
 <div align="center">
-<sub>Updated after Day 37 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 38 · Honest progress tracking · No sugarcoating</sub>
 </div>

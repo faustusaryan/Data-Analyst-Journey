@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-38%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-39%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -31,7 +31,7 @@ Not a failure — a smarter approach.
 
 | Skill          | Level                | Status                                          |
 | -------------- | -------------------- | ----------------------------------------------- |
-| **SQL**        | Intermediate | ✅ Solid — JOINs, Subqueries, CASE WHEN, Window Functions, CTEs working |
+| **SQL**        | Intermediate | ✅ Solid — JOINs, Subqueries, CASE WHEN, Window Functions, CTEs working (not touched in 3 months — re-verification pending) |
 | **Python**     | Basic                | ⚠️ Logic clear, syntax inconsistent             |
 | **Pandas**     | Near Zero            | 🔄 Rebuilding from scratch                      |
 | **Excel**      | Not Functional       | 🔄 To be covered properly                       |
@@ -116,6 +116,7 @@ Not a failure — a smarter approach.
 | Day 36 | **Restart after 2-month break.** SQL diagnostic — 5 questions from memory: JOIN + GROUP BY, Subquery with IN, CASE WHEN + GROUP BY, RANK() with PARTITION BY, chained CTEs. Score: 4/5 — CTE chaining gap identified (Q5 copied). SQL core logic fully intact after break. |
 | Day 37 | **Superstore project started.** Imported 9800-row Superstore Sales dataset into MySQL using LOAD DATA INFILE. 5 business queries written — total sales by Category, top 5 customers by sales, sales by Region, monthly sales trend for 2017 (STR_TO_DATE + WHERE year filter), top 3 sub-categories per Region (CTE + RANK + PARTITION BY). Q4 had HAVING vs WHERE confusion — corrected. Q5 CTE structure written independently after concept explanation. |
 | Day 38 | **Superstore project continued.** 5 more business queries — region-wise top ship_mode by delivery count (RANK + PARTITION BY, subquery style), best-selling month in 2018 (STR_TO_DATE + MONTHNAME + ORDER BY + LIMIT 1), avg order value per category filtered to Second Class ship mode, top 2 customers by sales per segment (CTE + RANK + PARTITION BY segment), 2017 vs 2018 total sales pivot (SUM + CASE WHEN). Rewrote Q1 as a CTE right after the subquery version to lock in CTE-vs-subquery equivalence — same logic, different syntax, now clear both ways. |
+| Day 39 | **Restart after 3-month gap.** Python diagnostic — 20 self-attempted questions, no reference (`Python/day39_python_restart_diagnostic.py`). Solid: strings, conditionals, loops, dicts, `*args`, default params. Recurring pattern flagged: reached correct output in 4 problems by working around the intended technique instead of using it (manual reversal instead of slicing, `.capitalize()` instead of manual indexing, string multiplication instead of nested loops). Failed independently: prime check (loop + early-exit combo) — unresolved. Recursion — full blank initially, resolved after a guided step-by-step trace (`fibonacci` + `factorial`, both correct after). SQL diagnostic pending — 3-month gap covers SQL too, intermediate status above not yet re-verified. |
 
 ---
 
@@ -137,6 +138,8 @@ Not a failure — a smarter approach.
 * String Functions — `UPPER` `LOWER` `LENGTH` `CHAR_LENGTH` `SUBSTRING` `INSTR` `REPLACE` `CONCAT` `TRIM` `LIKE` `LPAD` `RPAD` `LEFT` `RIGHT` `GROUP_CONCAT`
 * `BETWEEN` / `NOT BETWEEN`
 * Date Functions — `MONTH()` `YEAR()` `MONTHNAME()` · `STR_TO_DATE()` for VARCHAR date conversion
+
+*Not touched in 3 months as of Day 39 — re-verification via diagnostic pending.*
 
 </details>
 
@@ -162,6 +165,9 @@ Not a failure — a smarter approach.
 * `sorted()` with `key=`, `reverse=`, stable sort
 * f-strings — `{:,}` comma formatting
 * Functions — order-preserving dedup, sort by key, stats (mean/median/mode), most frequent char, quarterly revenue grouping, input validation, transaction analysis (total/avg/max)
+* Recursion — base case + recursive case (`factorial`, `fibonacci`) — rebuilt Day 39 after being fully blank on first attempt
+* Known gap — prime number check (loop + early-exit pattern), unresolved as of Day 39
+* Known habit to correct — tendency to reach a correct output via a workaround instead of the technique a problem is testing (flagged Day 39, 4 instances)
 
 </details>
 
@@ -198,5 +204,5 @@ Not a failure — a smarter approach.
 ---
 
 <div align="center">
-<sub>Updated after Day 38 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 39 · Honest progress tracking · No sugarcoating</sub>
 </div>

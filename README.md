@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-39%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-40%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -30,8 +30,8 @@ Not a failure — a smarter approach.
 ## 📍 Current Skill Status
 
 | Skill          | Level                | Status                                          |
-| -------------- | -------------------- | ----------------------------------------------- |
-| **SQL**        | Intermediate | ✅ Solid — JOINs, Subqueries, CASE WHEN, Window Functions, CTEs working (not touched in 3 months — re-verification pending) |
+| -------------- | -------------------- | ------------------------------------------------ |
+| **SQL**        | Intermediate | ✅ Solid — JOINs, Subqueries, CASE WHEN, Window Functions, CTEs re-verified Day 40 (22 fresh queries, no reference) |
 | **Python**     | Basic                | ⚠️ Logic clear, syntax inconsistent             |
 | **Pandas**     | Near Zero            | 🔄 Rebuilding from scratch                      |
 | **Excel**      | Not Functional       | 🔄 To be covered properly                       |
@@ -70,7 +70,7 @@ Not a failure — a smarter approach.
 <summary><strong>Phase 1 — Days 1–21 (click to expand)</strong></summary>
 
 | Day    | Work Done                                                         |
-| ------ | ----------------------------------------------------------------- |
+| ------ | ------------------------------------------------------------------- |
 | Day 1  | Environment Setup + SQL Audit                                     |
 | Day 2  | Python Audit + LinkedIn Setup                                     |
 | Day 3  | GitHub Structure + SQL SELECT & WHERE                             |
@@ -117,6 +117,7 @@ Not a failure — a smarter approach.
 | Day 37 | **Superstore project started.** Imported 9800-row Superstore Sales dataset into MySQL using LOAD DATA INFILE. 5 business queries written — total sales by Category, top 5 customers by sales, sales by Region, monthly sales trend for 2017 (STR_TO_DATE + WHERE year filter), top 3 sub-categories per Region (CTE + RANK + PARTITION BY). Q4 had HAVING vs WHERE confusion — corrected. Q5 CTE structure written independently after concept explanation. |
 | Day 38 | **Superstore project continued.** 5 more business queries — region-wise top ship_mode by delivery count (RANK + PARTITION BY, subquery style), best-selling month in 2018 (STR_TO_DATE + MONTHNAME + ORDER BY + LIMIT 1), avg order value per category filtered to Second Class ship mode, top 2 customers by sales per segment (CTE + RANK + PARTITION BY segment), 2017 vs 2018 total sales pivot (SUM + CASE WHEN). Rewrote Q1 as a CTE right after the subquery version to lock in CTE-vs-subquery equivalence — same logic, different syntax, now clear both ways. |
 | Day 39 | **Restart after 3-month gap.** Python diagnostic — 20 self-attempted questions, no reference (`Python/day39_python_restart_diagnostic.py`). Solid: strings, conditionals, loops, dicts, `*args`, default params. Recurring pattern flagged: reached correct output in 4 problems by working around the intended technique instead of using it (manual reversal instead of slicing, `.capitalize()` instead of manual indexing, string multiplication instead of nested loops). Failed independently: prime check (loop + early-exit combo) — unresolved. Recursion — full blank initially, resolved after a guided step-by-step trace (`fibonacci` + `factorial`, both correct after). SQL diagnostic pending — 3-month gap covers SQL too, intermediate status above not yet re-verified. |
+| Day 40 | **SQL re-verification after the 3-month gap.** 22 fresh queries on a new schema (departments, employees, customers, products, orders, order_items), no reference (`SQL/day40_sql_practice_22q.sql`). Section A (Q1–15) — SELECT/WHERE/ORDER BY, DISTINCT, LIKE, BETWEEN, date functions (MONTH/YEAR), GROUP BY + aggregates (COUNT/AVG/MIN/MAX/SUM), HAVING, anti-join-style "products never ordered" via LEFT JOIN + GROUP BY + HAVING COUNT = 0. Section B (Q16–22) — INNER JOIN, LEFT JOIN (both directions), RIGHT JOIN simulated without the keyword (LEFT JOIN with table order swapped), FULL OUTER JOIN simulated via UNION of LEFT + RIGHT joins. All correct on first attempt — SQL fundamentals confirmed intact after the break. |
 
 ---
 
@@ -130,7 +131,7 @@ Not a failure — a smarter approach.
 * `GROUP BY` `HAVING`
 * Aggregate Functions — `COUNT` `SUM` `AVG` `MIN` `MAX` · `ROUND`
 * `CASE WHEN` — simple, multi-column, with GROUP BY, with JOINs, pivot-style conditional aggregation
-* JOINs — INNER, LEFT, RIGHT, SELF, Multi-table, Anti-Join
+* JOINs — INNER, LEFT, RIGHT (incl. simulated without keyword), FULL OUTER (incl. simulated via UNION), SELF, Multi-table, Anti-Join
 * JOIN + GROUP BY — city-wise revenue, category-wise quantity, avg order amount
 * Subqueries — Scalar, `IN`/`NOT IN`, Derived Tables, Correlated, Nested (2nd highest salary, nested FROM in HAVING)
 * Window Functions — `ROW_NUMBER` `RANK` `DENSE_RANK` `LAG` `LEAD` `FIRST_VALUE` `LAST_VALUE` `SUM() OVER` `AVG() OVER` `PERCENT_RANK()` · `PARTITION BY` · `ROWS BETWEEN` frame clause · `WINDOW` alias
@@ -139,7 +140,7 @@ Not a failure — a smarter approach.
 * `BETWEEN` / `NOT BETWEEN`
 * Date Functions — `MONTH()` `YEAR()` `MONTHNAME()` · `STR_TO_DATE()` for VARCHAR date conversion
 
-*Not touched in 3 months as of Day 39 — re-verification via diagnostic pending.*
+*Re-verified Day 40 after a 3-month gap — aggregates, GROUP BY/HAVING, and all major JOIN types (incl. simulated RIGHT and FULL OUTER) confirmed solid. Subqueries, window functions, and CTEs not yet re-tested post-break.*
 
 </details>
 
@@ -204,5 +205,5 @@ Not a failure — a smarter approach.
 ---
 
 <div align="center">
-<sub>Updated after Day 39 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 40 · Honest progress tracking · No sugarcoating</sub>
 </div>

@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-41%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-42%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -31,7 +31,7 @@ Not a failure — a smarter approach.
 
 | Skill          | Level                | Status                                          |
 | -------------- | -------------------- | ------------------------------------------------ |
-| **SQL**        | Intermediate | ✅ Solid — JOINs, Subqueries, CASE WHEN, Window Functions, CTEs re-verified Days 40–41 (32 fresh queries across 2 sessions, no reference) |
+| **SQL**        | Intermediate | ✅ Core solid — JOINs, Subqueries, CASE WHEN, CTEs re-verified Days 40–42 (44 fresh queries across 3 sessions). ⚠️ Window functions re-tested Day 42 but *not* independently — see Day 42 log |
 | **Python**     | Basic                | ⚠️ Logic clear, syntax inconsistent             |
 | **Pandas**     | Near Zero            | 🔄 Rebuilding from scratch                      |
 | **Excel**      | Not Functional       | 🔄 To be covered properly                       |
@@ -58,9 +58,11 @@ Not a failure — a smarter approach.
 | ------------- | ------------ | ------------------------------------------- | ---------- |
 | New Week 1    | Days 22–28   | SQL consolidation + Python strengthening   | ✅ Done     |
 | New Week 2    | Days 29–35   | Window Functions + CTEs + Pandas intro     | ✅ Done     |
-| New Week 3    | Days 36–42   | SQL revision + Pandas + project start      | 🔄 Active  |
+| New Week 3    | Days 36–42   | SQL revision + Pandas + project start      | ⚠️ Partial |
 | New Week 4    | Days 43–49   | Power BI + Statistics + Mini Project       | ⬜          |
 | New Weeks 5–8 | Days 50–81   | Portfolio Projects + Resume + Applications | ⬜          |
+
+> **Week 3 honest close-out:** SQL revision and the Superstore project start both happened. The Pandas portion did not — it was displaced by re-verification work after the 3-month gap. Carrying Pandas forward rather than marking it done.
 
 ---
 
@@ -118,9 +120,8 @@ Not a failure — a smarter approach.
 | Day 38 | **Superstore project continued.** 5 more business queries — region-wise most-used ship_mode by `COUNT(DISTINCT order_id)` (RANK + PARTITION BY, subquery style), best-selling month of 2017 (`MONTHNAME` + ORDER BY + LIMIT 1), average line-item sale per category filtered to Second Class shipping, top 2 customers by sales per segment (CTE + RANK + PARTITION BY segment), 2016 vs 2017 sales pivot (SUM + CASE WHEN). Rewrote Q6 as a CTE right after the subquery version to lock in CTE-vs-subquery equivalence — same logic, different syntax, now clear both ways. |
 | Day 39 | **Restart after 3-month gap.** Python diagnostic — 20 self-attempted questions, no reference (`Python/day39_python_restart_diagnostic.py`). Solid: strings, conditionals, loops, dicts, `*args`, default params. Recurring pattern flagged: reached correct output in 4 problems by working around the intended technique instead of using it (manual reversal instead of slicing, `.capitalize()` instead of manual indexing, string multiplication instead of nested loops). Failed independently: prime check (loop + early-exit combo) — unresolved. Recursion — full blank initially, resolved after a guided step-by-step trace (`fibonacci` + `factorial`, both correct after). SQL diagnostic pending — 3-month gap covers SQL too, intermediate status above not yet re-verified. |
 | Day 40 | **SQL re-verification after the 3-month gap.** 22 fresh queries on a new schema (departments, employees, customers, products, orders, order_items), no reference (`SQL/day40_sql_practice_22q.sql`). Section A (Q1–15) — SELECT/WHERE/ORDER BY, DISTINCT, LIKE, BETWEEN, date functions (MONTH/YEAR), GROUP BY + aggregates (COUNT/AVG/MIN/MAX/SUM), HAVING, anti-join-style "products never ordered" via LEFT JOIN + GROUP BY + HAVING COUNT = 0. Section B (Q16–22) — INNER JOIN, LEFT JOIN (both directions), RIGHT JOIN simulated without the keyword (LEFT JOIN with table order swapped), FULL OUTER JOIN simulated via UNION of LEFT + RIGHT joins. All correct on first attempt — SQL fundamentals confirmed intact after the break. |
-| Day 41 | **JOINs focus — same schema as Day 40** (`SQL/day41_sql_practice.sql`), 10 queries, no reference. Self-join employees→manager (Q1) and top-of-hierarchy filter (Q2), 3-table JOIN — order + customer + employee (Q3), order total value via orders + order_items + products with GROUP BY (Q4), anti-joins — customers with no orders (Q5) and employees who never handled an order (Q6), self-join for same-department employee pairs avoiding mirrored duplicates via `a.employee_id < b.employee_id` (Q7), LEFT JOIN + COUNT for order count including 0 (Q8), 4-table JOIN — revenue per salesperson (Q9), self-join + JOIN departments — employee's manager's department name (Q10). All correct on first attempt. |
-
-> **Day 37–38 revisit (during Day 41):** went back over the Superstore files and found real correctness bugs, not just style issues. Dates were being stored as `VARCHAR`, so date filtering and sorting were unreliable. Customer aggregates were grouped by `customer_name` alone, which silently merges two different customers who share a name. Order counts used `COUNT(*)`, which counts line items rather than orders — one order spans multiple product rows. Q8 was labelled "average order value" when it actually averages line items. All fixed and re-pushed; the year references in the log above were also off by one against the dataset's real 2014–2017 range and have been corrected.
+| Day 41 | **JOINs focus — same schema as Day 40** (`SQL/day41_sql_practice.sql`), 10 queries, no reference. Self-join employees→manager (Q1) and top-of-hierarchy filter (Q2), 3-table JOIN — order + customer + employee (Q3), order total value via orders + order_items + products with GROUP BY (Q4), anti-joins — customers with no orders (Q5) and employees who never handled an order (Q6), self-join for same-department employee pairs avoiding mirrored duplicates via `a.employee_id < b.employee_id` (Q7), LEFT JOIN + COUNT for order count including 0 (Q8), 4-table JOIN — revenue per salesperson (Q9), self-join + JOIN departments — employee's manager's department name (Q10). All correct on first attempt. **Also revisited Days 37–38** and found real correctness bugs in the Superstore files, not style issues: dates stored as `VARCHAR` (date filtering and sorting unreliable), customer aggregates grouped by `customer_name` alone (silently merges two different customers sharing a name), order counts using `COUNT(*)` which counts line items rather than orders, and Q8 labelled "average order value" when it actually averaged line items. All fixed and re-pushed; year references in the earlier log entries were also off by one against the dataset's real 2014–2017 range and have been corrected. |
+| Day 42 | **Window functions re-test on Superstore — hardest session of the journey so far.** 12 questions (`SQL/day42_SQL_Window_Functions.sql`), schema rebuilt from scratch with `LOAD DATA LOCAL INFILE` + `STR_TO_DATE`. Covered: ROW_NUMBER for tie-free product ranking (Q1), ROW_NUMBER vs RANK vs DENSE_RANK side by side in one result set via `WINDOW` alias (Q2), top-3 per category — CTE + `PARTITION BY` with a deterministic tiebreak (Q3), running cumulative total with `SUM(SUM(sales)) OVER` on top of a GROUP BY (Q4), ratio-to-total with `SUM() OVER (PARTITION BY customer_id)` (Q5), month-over-month % change with `LAG` + `NULLIF` divide-by-zero guard (Q6), days between consecutive orders per customer — needed a `DISTINCT` CTE first because the table's grain is line item, not order (Q7), 3-month moving average with explicit `ROWS BETWEEN 2 PRECEDING AND CURRENT ROW` (Q8), `LAST_VALUE` with `UNBOUNDED FOLLOWING` to escape the default frame (Q9), `NTILE(4)` customer quartiles then aggregated per quartile (Q10), stacked window functions across two CTEs for year-over-year rank movement with `CAST(... AS SIGNED)` to allow negatives (Q11), Pareto cumulative % of total sales (Q12). **Honest note:** 15–25 minutes per question on average, help needed on roughly half of them, and syntax for several functions had to be looked up. All 12 finished and correct, but this was *not* independent work — window functions need another unaided pass before they count as re-verified. |
 
 ---
 
@@ -132,20 +133,23 @@ Not a failure — a smarter approach.
 * `SELECT` `WHERE` `DISTINCT`
 * `ORDER BY` `LIMIT` `OFFSET`
 * `GROUP BY` `HAVING`
-* Aggregate Functions — `COUNT` `COUNT(DISTINCT ...)` `SUM` `AVG` `MIN` `MAX` · `ROUND`
+* Aggregate Functions — `COUNT` `COUNT(DISTINCT ...)` `SUM` `AVG` `MIN` `MAX` · `ROUND` · `NULLIF` as a divide-by-zero guard
 * `CASE WHEN` — simple, multi-column, with GROUP BY, with JOINs, pivot-style conditional aggregation
 * JOINs — INNER, LEFT, RIGHT (incl. simulated without keyword), FULL OUTER (incl. simulated via UNION), SELF, Multi-table, Anti-Join
 * JOIN + GROUP BY — city-wise revenue, category-wise quantity, avg order amount
 * Subqueries — Scalar, `IN`/`NOT IN`, Derived Tables, Correlated, Nested (2nd highest salary, nested FROM in HAVING)
-* Window Functions — `ROW_NUMBER` `RANK` `DENSE_RANK` `LAG` `LEAD` `FIRST_VALUE` `LAST_VALUE` `SUM() OVER` `AVG() OVER` `PERCENT_RANK()` · `PARTITION BY` · `ROWS BETWEEN` frame clause · `WINDOW` alias
+* Window Functions — `ROW_NUMBER` `RANK` `DENSE_RANK` `NTILE` `LAG` `LEAD` `FIRST_VALUE` `LAST_VALUE` `SUM() OVER` `AVG() OVER` `PERCENT_RANK()` · `PARTITION BY` · `ROWS BETWEEN` frame clause · `WINDOW` alias · aggregate-inside-window (`SUM(SUM(x)) OVER`) · stacked window functions across chained CTEs · `CAST(... AS SIGNED)` for signed differences
+* Analytical patterns — running totals, ratio-to-total, month-over-month % change, N-period moving average, quartile segmentation, rank movement year over year, Pareto / cumulative % contribution
 * CTEs — basic (single), chained (multi-CTE), CTE + Window Function (TOP-N filter), recursive CTE (`WITH RECURSIVE` — hierarchy tree, level tracking, path building) · `IFNULL` · `CROSS JOIN` for scalar CTE values · CTE vs Subquery equivalence (same result, rewritten both ways)
 * String Functions — `UPPER` `LOWER` `LENGTH` `CHAR_LENGTH` `SUBSTRING` `INSTR` `REPLACE` `CONCAT` `TRIM` `LIKE` `LPAD` `RPAD` `LEFT` `RIGHT` `GROUP_CONCAT`
 * `BETWEEN` / `NOT BETWEEN`
-* Date Functions — `MONTH()` `YEAR()` `MONTHNAME()` · `STR_TO_DATE()` for parsing text dates into `DATE` at load time
-* Data loading & typing — `LOAD DATA INFILE` with column mapping and `SET`, `DATE` vs `VARCHAR` for dates, `VARCHAR` for postal codes (leading zeros), `DECIMAL` for money, `NULLIF(TRIM(...))` for blank-to-NULL, `IF EXISTS` / `IF NOT EXISTS` for re-runnable scripts, post-load validation queries
-* Grain awareness — line item vs order vs customer; `COUNT(DISTINCT order_id)` for order counts, grouping by ID alongside name so duplicate names don't merge
+* Date Functions — `MONTH()` `YEAR()` `MONTHNAME()` `DATE_FORMAT()` `DATEDIFF()` · `STR_TO_DATE()` for parsing text dates into `DATE` at load time
+* Data loading & typing — `LOAD DATA INFILE` / `LOAD DATA LOCAL INFILE` with column mapping and `SET`, `DATE` vs `VARCHAR` for dates, `VARCHAR` for postal codes (leading zeros), `DECIMAL` for money, `NULLIF(TRIM(...))` for blank-to-NULL, `IF EXISTS` / `IF NOT EXISTS` for re-runnable scripts, post-load validation queries
+* Grain awareness — line item vs order vs customer; `COUNT(DISTINCT order_id)` for order counts, `DISTINCT` CTE to collapse to order grain before date-diffing, grouping by ID alongside name so duplicate names don't merge
 
-*Re-verified Days 40–41 after a 3-month gap — aggregates, GROUP BY/HAVING, all major JOIN types (incl. simulated RIGHT and FULL OUTER), self-joins, multi-table (3–4 table) JOINs, and anti-joins confirmed solid across 32 fresh queries. Subqueries, window functions, and CTEs not yet re-tested post-break.*
+*Re-verified Days 40–41 after a 3-month gap — aggregates, GROUP BY/HAVING, all major JOIN types (incl. simulated RIGHT and FULL OUTER), self-joins, multi-table (3–4 table) JOINs, and anti-joins confirmed solid across 32 fresh queries, all first attempt.*
+
+*Window functions revisited Day 42 across 12 queries on the Superstore dataset — all completed and correct, but with help on roughly half and syntax lookups throughout. Counted as **exposure, not verification**. Specific weak spots to re-attempt unaided: default vs explicit window frames (`LAST_VALUE`), aggregate-inside-window syntax (`SUM(SUM(x)) OVER`), and stacking two window functions across separate CTEs. Subqueries re-tested Day 33/36; CTEs used heavily Day 42 but likewise with support.*
 
 </details>
 
@@ -207,8 +211,10 @@ Not a failure — a smarter approach.
 
 **Focus:** Writing clean, interview-ready SQL with multiple approaches (JOIN vs Subquery vs CTE)
 
+**Next up:** Unaided window-function re-attempt (Day 42 gaps), then the Pandas block carried over from Week 3.
+
 ---
 
 <div align="center">
-<sub>Updated after Day 41 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 42 · Honest progress tracking · No sugarcoating</sub>
 </div>

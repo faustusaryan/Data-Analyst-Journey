@@ -142,6 +142,9 @@ WHERE t.sales > t2.category_avg;
 -- customer_name. Use EXISTS twice, or two CTEs — your choice, but state which
 -- in a comment and why.
 
+-- Two CTEs over EXISTS: the year cohorts are named sets here,
+-- so the join reads cleaner than two correlated EXISTS blocks.
+
 WITH y2016 AS (
     SELECT DISTINCT customer_id, customer_name
     FROM orders

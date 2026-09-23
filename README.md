@@ -5,7 +5,7 @@
 **Goal → Entry-level Data Analyst role in India**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Day](https://img.shields.io/badge/Day-43%20of%2081-blue?style=flat-square)
+![Day](https://img.shields.io/badge/Day-44%20of%2081-blue?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Basic-yellow?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-Rebuilding-red?style=flat-square)
@@ -31,7 +31,7 @@ Not a failure — a smarter approach.
 
 | Skill          | Level                | Status                                          |
 | -------------- | -------------------- | ------------------------------------------------ |
-| **SQL**        | Intermediate | ✅ Core solid — JOINs, Subqueries, CASE WHEN, CTEs re-verified Days 40–43 (57 fresh queries across 4 sessions). ⚠️ Window functions re-tested Day 42 but *not* independently — partial unaided retest Day 43 (1 query), full pass still pending |
+| **SQL**        | Intermediate | ✅ Core solid — JOINs, Subqueries, CASE WHEN, CTEs re-verified Days 40–43 (57 fresh queries across 4 sessions). DML/DDL (`UPDATE` / `DELETE` / `ALTER`) added Day 44. ⚠️ Window functions re-tested Day 42 but *not* independently — partial unaided retest Day 43 (1 query), full pass still pending |
 | **Python**     | Basic                | ⚠️ Logic clear, syntax inconsistent             |
 | **Pandas**     | Near Zero            | 🔄 Rebuilding from scratch                      |
 | **Excel**      | Not Functional       | 🔄 To be covered properly                       |
@@ -64,7 +64,7 @@ Not a failure — a smarter approach.
 
 > **Week 3 honest close-out:** SQL revision and the Superstore project start both happened. The Pandas portion did not — it was displaced by re-verification work after the 3-month gap. Carrying Pandas forward rather than marking it done.
 
-> **Week 4 note:** Day 43 spent on CTEs + subqueries rather than the planned Power BI start — the Day 42 review flagged CTE work as supported rather than independent, so it needed one clean unaided pass first. Power BI and Statistics still to begin.
+> **Week 4 note:** Day 43 spent on CTEs + subqueries rather than the planned Power BI start — the Day 42 review flagged CTE work as supported rather than independent, so it needed one clean unaided pass first. Another gap followed Day 43; Day 44 was a light re-entry session on `UPDATE` / `DELETE` / `ALTER` (not practised before) rather than a Week 4 topic. Power BI and Statistics still to begin.
 
 ---
 
@@ -125,6 +125,7 @@ Not a failure — a smarter approach.
 | Day 41 | **JOINs focus** (`SQL/day41_sql_practice.sql`) — 10 queries, no reference, all correct first attempt: self-joins (manager lookup, same-dept pairs without mirrored duplicates), 3- and 4-table JOINs, anti-joins, LEFT JOIN + COUNT including zeros. **Also audited Days 37–38** and fixed 4 real correctness bugs — dates stored as `VARCHAR`, customer aggregates grouped by name alone (merges duplicate names), `COUNT(*)` counting line items instead of orders, and a query labelled "average order value" that averaged line items. |
 | Day 42 | **Window functions re-test on Superstore — hardest session so far.** 12 queries (`SQL/day42_SQL_Window_Functions.sql`): ranking comparison via `WINDOW` alias, top-N per partition, running totals with `SUM(SUM(x)) OVER`, ratio-to-total, MoM % change with `LAG` + `NULLIF`, moving average with an explicit `ROWS BETWEEN` frame, `LAST_VALUE` with `UNBOUNDED FOLLOWING`, `NTILE(4)` quartiles, stacked windows across CTEs, Pareto cumulative %. **Honest note:** all 12 correct, but 15–25 min each with help on roughly half and syntax lookups throughout — exposure, not verification. Needs another unaided pass. |
 | Day 43 | **CTEs vs subqueries — equivalence practice on Superstore.** 13 queries (`SQL/day43_ctes_subqueries.sql`): scalar and `IN` subqueries, derived table then the same problem rewritten as a CTE, chained CTEs with `CROSS JOIN` to expose a scalar as a column, a correlated subquery written twice — correlated (Q7) and as CTE + JOIN (Q8), `EXISTS` / `NOT EXISTS` for year-cohort and never-bought filters, order contribution % of grand total, discounted vs non-discounted profit gap per sub-category. Top-3-per-category with CTE + `RANK()` retyped from memory without reopening the Day 42 file — first unaided window-function query since that gap was flagged. |
+| Day 44 | **Restart after another gap.** SQL DML + DDL — 10 queries on a fresh `college.student` table (`SQL/day44_sql_update_delete_alter.sql`): `UPDATE` (single row by key, bulk `marks = marks + 2`, conditional updates with `WHERE` and `BETWEEN`), `DELETE` (by name, multi-condition `AND`, full-table `DELETE` vs `TRUNCATE`), `ALTER TABLE` (`ADD COLUMN` with `NOT NULL` + `DEFAULT`, `CHANGE` to rename vs `MODIFY` to change datatype to `FLOAT`, `DROP COLUMN`, `RENAME TO`), `SQL_SAFE_UPDATES = 0` for non-key `WHERE` updates. New ground — earlier sessions only created and loaded tables (`CREATE TABLE`, `INSERT`, `LOAD DATA INFILE`); changing existing rows and table structure hadn't been practised before. **Honest note:** light re-entry session on basics, not a re-verification of anything; the ALTER section ran on an empty table (after `TRUNCATE`), so its effect shows only in `DESC`, not in the data. Window-function re-attempt still pending. |
 
 ---
 
@@ -148,6 +149,7 @@ Not a failure — a smarter approach.
 * `BETWEEN` / `NOT BETWEEN`
 * Date Functions — `MONTH()` `YEAR()` `MONTHNAME()` `DATE_FORMAT()` `DATEDIFF()` · `STR_TO_DATE()` for parsing text dates into `DATE` at load time
 * Data loading & typing — `LOAD DATA INFILE` / `LOAD DATA LOCAL INFILE` with column mapping and `SET`, `DATE` vs `VARCHAR` for dates, `VARCHAR` for postal codes (leading zeros), `DECIMAL` for money, `NULLIF(TRIM(...))` for blank-to-NULL, `IF EXISTS` / `IF NOT EXISTS` for re-runnable scripts, post-load validation queries
+* DML / DDL — `UPDATE` (single row, bulk expression `col = col + n`, conditional with `WHERE` / `BETWEEN`) · `DELETE` (conditional, full-table) vs `TRUNCATE` · `ALTER TABLE` — `ADD COLUMN` with `NOT NULL` + `DEFAULT`, `CHANGE` (rename) vs `MODIFY` (datatype), `DROP COLUMN`, `RENAME TO` · `SQL_SAFE_UPDATES` · `DESC` to inspect structure
 * Grain awareness — line item vs order vs customer; `COUNT(DISTINCT order_id)` for order counts, `DISTINCT` CTE to collapse to order grain before date-diffing, grouping by ID alongside name so duplicate names don't merge
 
 *Re-verified Days 40–41 after a 3-month gap — aggregates, GROUP BY/HAVING, all major JOIN types (incl. simulated RIGHT and FULL OUTER), self-joins, multi-table (3–4 table) JOINs, and anti-joins confirmed solid across 32 fresh queries, all first attempt.*
@@ -155,6 +157,8 @@ Not a failure — a smarter approach.
 *Window functions revisited Day 42 across 12 queries on the Superstore dataset — all completed and correct, but with help on roughly half and syntax lookups throughout. Counted as **exposure, not verification**. Specific weak spots to re-attempt unaided: default vs explicit window frames (`LAST_VALUE`), aggregate-inside-window syntax (`SUM(SUM(x)) OVER`), and stacking two window functions across separate CTEs.*
 
 *CTEs and subqueries worked deliberately on Day 43 — 13 queries covering scalar / `IN` / correlated / `EXISTS` forms and the CTE rewrite of each. The `CTE + RANK()` top-N query was retyped from memory without reopening the Day 42 file: one query out of the window-function gap closed, the rest of that list still open.*
+
+*`UPDATE` / `DELETE` / `ALTER` practised for the first time on Day 44 — `UPDATE`, `DELETE` vs `TRUNCATE`, and `ALTER TABLE` on a small practice table. Basics only; not yet applied to a real dataset like Superstore.*
 
 </details>
 
@@ -221,5 +225,5 @@ Not a failure — a smarter approach.
 ---
 
 <div align="center">
-<sub>Updated after Day 43 · Honest progress tracking · No sugarcoating</sub>
+<sub>Updated after Day 44 · Honest progress tracking · No sugarcoating</sub>
 </div>
